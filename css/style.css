@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(44, 44, 121);
+  font: normal 15pt arial;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: 15px auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
+}
+
+div {
+  text-align: center;
+  padding: 8px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+#name-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#imagem {
+  width: 125px;
+}
+
+#foto {
+  font-size: small;
+}
+
+#foto p {
+  margin-top: 3px;
+  color: rgb(185, 1, 173);
+}
+
+#info-tech img {
+  width: 25px;
+}
+#info-tech h1 {
+  margin-bottom: 0;
+}
+
+.apresentation {
+  margin: 0 auto;
+  width: 90%;
+  background-color: rgb(231, 227, 227);
+  font-size: small;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
+}
+
+#info-personal {
+  font-size: x-small;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#info-personal img {
+  width: 80px;
+}
+
+.social-card {
+  display: inline-block;
+}
+
+.social-card img {
+  display: inline;
+  vertical-align: middle;
+  width: 50px;
+}
+.social-card p {
+  display: inline;
+  vertical-align: middle;
+}
+
+.contact {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: 5px auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
+}
