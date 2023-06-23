@@ -87,9 +87,10 @@ footer {
   vertical-align: middle;
   width: 50px;
 }
-.social-card p {
+.social-card a {
   display: inline;
   vertical-align: middle;
+  font-size: xx-small;
 }
 
 .contact {
