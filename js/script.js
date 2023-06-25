@@ -3,23 +3,54 @@ function dataHora() {
 
   let img = window.document.querySelector("#imagem");
 
-  let title = window.document.querySelector("#header-id");
-
   let rodapeNome = window.document.querySelector("#rodape");
+  
+  let navBar = window.document.querySelector("#nav-bar ul.navbar");
+
+  let bShadow = window.document.querySelector("#name-card")
 
   let data = new Date();
   let mes = (data.getMonth() + 1).toString().padStart(2, 0);
   let dia = data.getDate();
   let hora = data.getHours();
-  let minutos = data.getMinutes();
+  let minutos = (data.getMinutes()).toString().padStart(2, 0);
 
   hoursDay.textContent = `${dia}/${mes} - ${hora}:${minutos}`;
 
-  if (hora >= 0 || hora < 12) {
+  if (hora >= 0 && hora < 12) {
+    document.body.style.background = "#E0FFFF"
+
     img.src ='../assets/manha.png'
-  } else if (hora >= 12 || hora < 18) {
+    img.alt = 'Sol nascendo no litoral'
+
+    rodapeNome.style.color = "#FF8C00"
+
+  } else if (hora >= 12 && hora <= 18) {
+    document.body.style.background = "#cdffff"
+    bShadow.style.boxShadow = " 5px 5px 10px rgba(0, 102, 145, 0.7)"
+
     img.src = '../assets/tarde.png'
+    img.alt = 'Linda imagem de um sol se ponto.'
+
+    navBar.style.backgroundColor = '#40cfff';
+    navBar.style.
+
+    rodapeNome.style.color = "#2499c7"
+
   } else {
+    document.body.style.background = "#E0FFFF"
+
     img.src = '../assets/noite.png'
+    img.alt = 'Luzes das casas de uma cidade grande cintilando durante a noite  '
+
+    rodapeNome.style.color = "#FF8C00"
+
+
   }
 }
+
+
+
+
+
+

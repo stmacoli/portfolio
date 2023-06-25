@@ -52,6 +52,7 @@ footer {
   color: rgb(185, 1, 173);
 }
 
+
 #info-tech img {
   width: 25px;
 }
@@ -82,6 +83,7 @@ footer {
   display: inline-block;
 }
 
+
 .social-card img {
   display: inline;
   vertical-align: middle;
@@ -93,11 +95,50 @@ footer {
   font-size: xx-small;
 }
 
-.contact {
+#contact {
   background: white;
   border-radius: 10px;
-  padding: 15px;
+ padding: 15px;
   width: 500px;
   margin: 5px auto;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
+}
+
+
+
+
+
+
+#nav-bar {
+  margin-top: -10px;
+  padding: 0 16px 0 16px;
+}
+
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 10px;
+  display: flex; /* Adicionado */
+  justify-content: center; /* Adicionado */
+}
+
+ul.navbar li {
+  float: left;
+}
+
+ul.navbar li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: small;
+  text-align: center;  
+}
+
+ul.navbar li a:hover {
+  background-color: #2499c7;
 }
