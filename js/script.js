@@ -23,7 +23,7 @@ function dataHora() {
     img.src ='../assets/manha.png'
     img.alt = 'Sol nascendo no litoral'
 
-    rodapeNome.style.color = "#FF8C00"
+    rodapeNome.style.color = "#006691"
 
   } else if (hora >= 12 && hora <= 18) {
     document.body.style.background = "#cdffff"
@@ -33,9 +33,9 @@ function dataHora() {
     img.alt = 'Linda imagem de um sol se ponto.'
 
     navBar.style.backgroundColor = '#40cfff';
-    navBar.style.
+    
 
-    rodapeNome.style.color = "#2499c7"
+    rodapeNome.style.color = "#006691";
 
   } else {
     document.body.style.background = "#E0FFFF"
@@ -43,7 +43,7 @@ function dataHora() {
     img.src = '../assets/noite.png'
     img.alt = 'Luzes das casas de uma cidade grande cintilando durante a noite  '
 
-    rodapeNome.style.color = "#FF8C00"
+    rodapeNome.style.color = "#006691"
 
 
   }
