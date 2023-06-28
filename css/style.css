@@ -33,29 +33,28 @@ footer {
   font-style: italic;
 }
 
-#name-card {
+#first-container {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-#imagem {
-  width: 125px;
-}
-
-#foto {
+#today {
   font-size: small;
 }
-
-#foto p {
+#today p {
   margin-top: 3px;
   color: rgb(185, 1, 173);
 }
 
-#info-tech img {
+#img-today {
+  width: 125px;
+}
+
+#portfolio-explanation img {
   width: 25px;
 }
-#info-tech h1 {
+#portfolio-explanation h1 {
   margin-bottom: 0;
 }
 
@@ -67,36 +66,69 @@ footer {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
 }
 
-#info-personal {
-  font-size: x-small;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+#second-container {
+  margin-top: -10px;
+  padding: 0 16px 0 16px;
 }
 
-#info-personal img {
-  width: 80px;
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 10px;
+  display: flex; 
+  justify-content: center;
+}
+
+ul.navbar.hoverizado {
+  background-color: #ff0000;
+
+}
+
+ul.navbar li {
+  float: left;
+}
+
+ul.navbar li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: small;
+  text-align: center;  
+}
+
+#third-container {
+  background: white;
+  border-radius: 10px;
+ padding: 15px;
+  width: 500px;
+  margin: 5px auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
 }
 
 .social-card {
   display: inline-block;
 }
 
+
 .social-card img {
   display: inline;
   vertical-align: middle;
   width: 50px;
 }
-.social-card p {
+
+.social-card a {
   display: inline;
   vertical-align: middle;
+  font-size: xx-small;
 }
 
-.contact {
-  background: white;
-  border-radius: 10px;
-  padding: 15px;
-  width: 500px;
-  margin: 5px auto;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
-}
+/*ul.navbar li a:hover {
+  background-color: #2499c7;
+}*/
+
+
+
