@@ -33,30 +33,28 @@ footer {
   font-style: italic;
 }
 
-#name-card {
+#first-container {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-#imagem {
-  width: 125px;
-}
-
-#foto {
+#today {
   font-size: small;
 }
-
-#foto p {
+#today p {
   margin-top: 3px;
   color: rgb(185, 1, 173);
 }
 
+#img-today {
+  width: 125px;
+}
 
-#info-tech img {
+#portfolio-explanation img {
   width: 25px;
 }
-#info-tech h1 {
+#portfolio-explanation h1 {
   margin-bottom: 0;
 }
 
@@ -68,52 +66,10 @@ footer {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
 }
 
-#info-personal {
-  font-size: x-small;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-#info-personal img {
-  width: 80px;
-}
-
-.social-card {
-  display: inline-block;
-}
-
-
-.social-card img {
-  display: inline;
-  vertical-align: middle;
-  width: 50px;
-}
-.social-card a {
-  display: inline;
-  vertical-align: middle;
-  font-size: xx-small;
-}
-
-#contact {
-  background: white;
-  border-radius: 10px;
- padding: 15px;
-  width: 500px;
-  margin: 5px auto;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
-}
-
-
-
-
-
-
-#nav-bar {
+#second-container {
   margin-top: -10px;
   padding: 0 16px 0 16px;
 }
-
 
 ul.navbar {
   list-style-type: none;
@@ -122,8 +78,13 @@ ul.navbar {
   overflow: hidden;
   background-color: #333;
   border-radius: 10px;
-  display: flex; /* Adicionado */
-  justify-content: center; /* Adicionado */
+  display: flex; 
+  justify-content: center;
+}
+
+ul.navbar.hoverizado {
+  background-color: #ff0000;
+
 }
 
 ul.navbar li {
@@ -139,6 +100,35 @@ ul.navbar li a {
   text-align: center;  
 }
 
-ul.navbar li a:hover {
-  background-color: #2499c7;
+#third-container {
+  background: white;
+  border-radius: 10px;
+ padding: 15px;
+  width: 500px;
+  margin: 5px auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
 }
+
+.social-card {
+  display: inline-block;
+}
+
+
+.social-card img {
+  display: inline;
+  vertical-align: middle;
+  width: 50px;
+}
+
+.social-card a {
+  display: inline;
+  vertical-align: middle;
+  font-size: xx-small;
+}
+
+/*ul.navbar li a:hover {
+  background-color: #2499c7;
+}*/
+
+
+
