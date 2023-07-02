@@ -131,6 +131,7 @@ ul.navbar li a {
 
 
  .princing-container {
+  margin-top: 1px;
   display: flex;
 } 
 
@@ -166,12 +167,34 @@ ul.navbar li a {
 }
 
 .data-tempo {
-  margin: 0 auto;
+  margin: 0 auto -8px auto;
+  padding: 1px;
+  height: 30px;
   
-  width: 84%;
+  width: 91%;
   background-color: rgba(31, 87, 255, 0.2);
 }
 
+#navbar-content {
+  display: none;
+}
+
+#projetos-container {
+  display: none;
+  
+}
+#about-container {
+  display: none;
+  
+}
+#arts-container {
+  display: none;
+  
+}
+#cv-container {
+  display: none;
+  
+}
 
 
 
