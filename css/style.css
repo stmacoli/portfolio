@@ -17,7 +17,8 @@ section {
   background: white;
   border-radius: 10px;
   padding: 15px;
-  width: 500px;
+  width: 50%;
+  min-width: 600px;
   margin: 15px auto;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
 }
@@ -44,7 +45,6 @@ footer {
 }
 #today p {
   margin-top: 3px;
-  color: rgb(185, 1, 173);
 }
 
 #img-today {
@@ -103,10 +103,11 @@ ul.navbar li a {
 #third-container {
   background: white;
   border-radius: 10px;
- padding: 15px;
+  padding: 15px;
   width: 500px;
   margin: 5px auto;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
+  text-align: center;
 }
 
 .social-card {
@@ -125,6 +126,48 @@ ul.navbar li a {
   vertical-align: middle;
   font-size: xx-small;
 }
+
+
+
+ .princing-container {
+  display: flex;
+} 
+
+.princing-container a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 10px;
+}
+
+.dolar-container {
+  height: 12px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.euro-container {
+  height: 12px;
+  background-color: rgb(31, 87, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btc-container {
+  height: 12px;
+  background-color: rgb(117, 186, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
 
 /*ul.navbar li a:hover {
   background-color: #2499c7;
