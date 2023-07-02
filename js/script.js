@@ -12,8 +12,8 @@ function dataHora() {
 
   let data = new Date();
   let mes = (data.getMonth() + 1).toString().padStart(2, 0);
-  let dia = data.getDate();
-  let hora = data.getHours();
+  let dia = (data.getDate()).toString().padStart(2, 0);
+  let hora = (data.getHours()).toString().padStart(2, 0);
   let minutos = data.getMinutes().toString().padStart(2, 0);
 
   hoursDay.textContent = `${dia}/${mes} - ${hora}:${minutos}`;

@@ -42,6 +42,7 @@ footer {
 
 #today {
   font-size: small;
+
 }
 #today p {
   margin-top: 3px;
@@ -141,7 +142,7 @@ ul.navbar li a {
 
 .dolar-container {
   height: 12px;
-  background-color: aqua;
+  background-color: rgba(0, 255, 255, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,7 +151,7 @@ ul.navbar li a {
 
 .euro-container {
   height: 12px;
-  background-color: rgb(31, 87, 255);
+  background-color: rgba(31, 87, 255, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,10 +159,17 @@ ul.navbar li a {
 
 .btc-container {
   height: 12px;
-  background-color: rgb(117, 186, 255);
+  background-color: rgba(117, 186, 255, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.data-tempo {
+  margin: 0 auto;
+  
+  width: 84%;
+  background-color: rgba(31, 87, 255, 0.2);
 }
 
 
