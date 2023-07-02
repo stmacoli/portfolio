@@ -124,3 +124,32 @@ fetch('https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL')
 // };
 
 // fetchToApi();
+
+
+
+function showContent(target) {
+  const sectionOnDisplay = document.getElementById('navbar-content')
+  const navbarDiv = document.getElementById('projetos-container', 'about-container', 'arts-container', 'cv-container');
+ 
+  
+
+  if (target === 'projetos') {
+    sectionOnDisplay.style.display = 'block'
+    navbarDiv.style.background = "red"
+    navbarDiv.style.display = 'block';
+  } else if (target === 'sobre') {
+    sectionOnDisplay.style.display = 'block'
+    navbarDiv.style.background = "blue"
+    navbarDiv.style.display = 'block';
+  } else if (target === 'artes') {
+    sectionOnDisplay.style.display = 'block'
+    navbarDiv.style.background = "yellow"
+    navbarDiv.style.display = 'block';
+  } else if (target === 'cv') {
+    sectionOnDisplay.style.display = 'block'
+    navbarDiv.style.background = "violet"
+    navbarDiv.style.display = 'block';
+  }
+}
+
+
