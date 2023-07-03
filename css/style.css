@@ -60,7 +60,7 @@ footer {
 }
 
 .apresentation {
-  margin: 0 auto;
+  margin: 55px auto 0 auto;
   width: 90%;
   background-color: rgb(231, 227, 227);
   font-size: small;
@@ -112,19 +112,37 @@ ul.navbar li a {
   text-align: center;
 }
 
-
-
-.social-card {
+.contato1 {
   display: inline-block;
-  margin-right: 80px;
-  margin-left: 80px;
+  background-color: #e2d6ff;
+  padding: 1px;
+  width: 91%;
+  margin-top: -7px;
+  
+}
+
+
+
+.social-card-container {
+  display: flex;
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: -10px;
+
+
+}
+
+.title-div {
+  letter-spacing: 3px;
+  margin: 0 auto -20px auto;
+  
 }
 
 
 .social-card img {
   display: inline;
   vertical-align: middle;
-  width: 50px;
+  width: 30px;
 }
 
 .social-card a {
@@ -138,6 +156,7 @@ ul.navbar li a {
  .princing-container {
   margin-top: 1px;
   display: flex;
+ width: 92%;
 } 
 
 .princing-container a {

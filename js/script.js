@@ -1,7 +1,6 @@
 function dataHora() {
   let bShadow1 = window.document.querySelector("#first-container");
   let bShadow2 = window.document.querySelector("#second-container");
-  let bShadow3 = window.document.querySelector("#third-container");
   let hoursDay = window.document.querySelector("#first-container p");
 
   let img = window.document.querySelector("#img-today");
@@ -25,7 +24,6 @@ function dataHora() {
     document.body.style.background = "#cdffff";
     bShadow1.style.boxShadow = " 5px 5px 10px rgba(0, 102, 145, 0.7)";
     bShadow2.style.boxShadow = " 5px 5px 10px rgba(0, 102, 145, 0.7)";
-    bShadow3.style.boxShadow = " 5px 5px 10px rgba(0, 102, 145, 0.7)";
 
     img.src = "../assets/manha.png";
     img.alt = "Sol nascendo no litoral";
@@ -37,7 +35,6 @@ function dataHora() {
     document.body.style.background = "#ffc16e";
     bShadow1.style.boxShadow = " 5px 5px 10px rgba(255, 162, 252, 0.7)";
     bShadow2.style.boxShadow = " 5px 5px 10px rgba(255, 162, 252, 0.7)";
-    bShadow3.style.boxShadow = " 5px 5px 10px rgba(255, 162, 252, 0.7)";
 
     img.src = "../assets/tarde.png";
     img.alt = "Linda imagem de um sol se ponto.";
@@ -49,7 +46,6 @@ function dataHora() {
     document.body.style.background = "#000d3f";
     bShadow1.style.boxShadow = " 5px 5px 10px rgba(70, 0, 150, 0.7)";
     bShadow2.style.boxShadow = " 5px 5px 10px rgba(70, 0, 150, 0.7)";
-    bShadow3.style.boxShadow = " 5px 5px 10px rgba(70, 0, 150, 0.7)";
 
     img.src = "../assets/noite.png";
     img.alt =
