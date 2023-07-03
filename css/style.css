@@ -102,17 +102,22 @@ ul.navbar li a {
 }
 
 #third-container {
-  background: white;
+  background: rgb(255, 255, 255);
   border-radius: 10px;
   padding: 15px;
-  width: 500px;
+  width: 50%;
+  min-width: 600px;
   margin: 5px auto;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
   text-align: center;
 }
 
+
+
 .social-card {
   display: inline-block;
+  margin-right: 80px;
+  margin-left: 80px;
 }
 
 
@@ -125,7 +130,7 @@ ul.navbar li a {
 .social-card a {
   display: inline;
   vertical-align: middle;
-  font-size: xx-small;
+  font-size: small;
 }
 
 
@@ -200,9 +205,9 @@ ul.navbar li a {
 
 
 
-/*ul.navbar li a:hover {
+ul.navbar li a:hover {
   background-color: #2499c7;
-}*/
+}
 
 
 
