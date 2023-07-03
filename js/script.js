@@ -1,5 +1,7 @@
 function dataHora() {
-  let bShadow = window.document.querySelector("#first-container");
+  let bShadow1 = window.document.querySelector("#first-container");
+  let bShadow2 = window.document.querySelector("#second-container");
+  let bShadow3 = window.document.querySelector("#third-container");
   let hoursDay = window.document.querySelector("#first-container p");
 
   let img = window.document.querySelector("#img-today");
@@ -7,6 +9,7 @@ function dataHora() {
   let rodapeNome = window.document.querySelector("#rodape");
 
   let navBar = window.document.querySelector("#second-container ul.navbar");
+  let navBarColor = window.document.getElementById("font-color");
 
   let elemento = document.querySelector("ul.navbar");
 
@@ -18,9 +21,11 @@ function dataHora() {
 
   hoursDay.textContent = `${dia}/${mes} - ${hora}:${minutos}`;
 
-  if (hora >= 0 && hora < 12) {
+  if (hora >= 6 && hora < 12) {
     document.body.style.background = "#cdffff";
-    bShadow.style.boxShadow = " 5px 5px 10px rgba(0, 102, 145, 0.7)";
+    bShadow1.style.boxShadow = " 5px 5px 10px rgba(0, 102, 145, 0.7)";
+    bShadow2.style.boxShadow = " 5px 5px 10px rgba(0, 102, 145, 0.7)";
+    bShadow3.style.boxShadow = " 5px 5px 10px rgba(0, 102, 145, 0.7)";
 
     img.src = "../assets/manha.png";
     img.alt = "Sol nascendo no litoral";
@@ -30,7 +35,9 @@ function dataHora() {
     rodapeNome.style.color = "#006691";
   } else if (hora >= 12 && hora <= 18) {
     document.body.style.background = "#ffc16e";
-    bShadow.style.boxShadow = " 5px 5px 10px rgba(255, 162, 252, 0.7)";
+    bShadow1.style.boxShadow = " 5px 5px 10px rgba(255, 162, 252, 0.7)";
+    bShadow2.style.boxShadow = " 5px 5px 10px rgba(255, 162, 252, 0.7)";
+    bShadow3.style.boxShadow = " 5px 5px 10px rgba(255, 162, 252, 0.7)";
 
     img.src = "../assets/tarde.png";
     img.alt = "Linda imagem de um sol se ponto.";
@@ -38,27 +45,36 @@ function dataHora() {
     navBar.style.backgroundColor = "#40cfff";
 
     rodapeNome.style.color = "#221e74";
-  } else {
+  } else if (hora >= 18 && hora >= 0 ) {
     document.body.style.background = "#000d3f";
-    bShadow.style.boxShadow = " 5px 5px 10px rgba(70, 0, 150, 0.7)";
+    bShadow1.style.boxShadow = " 5px 5px 10px rgba(70, 0, 150, 0.7)";
+    bShadow2.style.boxShadow = " 5px 5px 10px rgba(70, 0, 150, 0.7)";
+    bShadow3.style.boxShadow = " 5px 5px 10px rgba(70, 0, 150, 0.7)";
 
     img.src = "../assets/noite.png";
     img.alt =
       "Luzes das casas de uma cidade grande cintilando durante a noite  ";
 
-    navBar.style.backgroundColor = "#002096";
+    navBar.style.backgroundColor = "#191970";
+    navBar.style.color = "#00FF00";
+    
 
     rodapeNome.style.color = "#c500ae";
+  } else {
+    document.body.style.background = "#D8BFD8";
+    bShadow1.style.boxShadow = " 5px 5px 10px rgba(255,228,196, 0.7)";
+    bShadow2.style.boxShadow = " 5px 5px 10px rgba(255,228,196, 0.7)";
+    bShadow3.style.boxShadow = " 5px 5px 10px rgba(255,228,196, 0.7)";
 
-    elemento.addEventListener("mouseenter", function () {
-      elemento.classList.add("hoverizado");
-    });
+    img.src = "../assets/noite.png";
+    img.alt =
+      "Luzes das casas de uma cidade grande cintilando durante a noite  ";
 
-    elemento.addEventListener("mouseleave", function () {
-      elemento.classList.remove("hoverizado");
-    });
-    console.log(elemento);
-  }
+    navBar.style.backgroundColor = "#FFE4E1";
+    navBarColor.style.color = "#4B0082";
+
+    rodapeNome.style.color = "#c500ae";
+  } 
 }
 
 fetch('https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL')
@@ -129,18 +145,21 @@ fetch('https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL')
 
 function showContent(target) {
   const sectionOnDisplay = document.getElementById('navbar-content')
-  const navbarDiv = document.getElementById('projetos-container', 'about-container', 'arts-container', 'cv-container');
+  const projetosDiv = document.getElementById('projetos-container');
+  const aboutDiv = document.getElementById('about-container');
+  //, 'about-container', 'arts-container', 'cv-container'
+
  
   
 
   if (target === 'projetos') {
     sectionOnDisplay.style.display = 'block'
-    navbarDiv.style.background = "red"
-    navbarDiv.style.display = 'block';
+    projetosDiv.style.background = "red"
+    projetosDiv.style.display = 'block';
   } else if (target === 'sobre') {
     sectionOnDisplay.style.display = 'block'
-    navbarDiv.style.background = "blue"
-    navbarDiv.style.display = 'block';
+    aboutDiv.style.background = "blue"
+    aboutDiv.style.display = 'block';
   } else if (target === 'artes') {
     sectionOnDisplay.style.display = 'block'
     navbarDiv.style.background = "yellow"
