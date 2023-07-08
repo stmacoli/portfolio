@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="pte-br">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
     <title>Home</title>
@@ -46,10 +47,9 @@
 
         <div class="contato1">
           <div class="title-div">
-          <h4>Contato:</h4>
-        </div>
+            <h4>Contato:</h4>
+          </div>
           <div class="social-card-container">
-            
             <div class="social-card">
               <a href="https://github.com/stmacoli" target="_blank">
                 <img src="../assets/github.png" alt="LinkedIn" />
@@ -66,17 +66,17 @@
             </div>
           </div>
         </div>
-
       </div>
 
-      
-
       <div id="portfolio-explanation">
-        <h1>Steven Barreda</h1>
-        <img src="../assets/html.png" alt="HTML" title="HTML5" />
-        <img src="../assets/css.png" alt="CSS" title="CSS3" />
-        <img src="../assets/js.png" alt="JAVASCRIPT" title="JavaScrip(EC5)" />
-        <img src="../assets/canva.png" alt="CANVA" title="Canva" />
+        <div>
+          <h1>Steven Barreda</h1>
+          <img src="../assets/html.png" alt="HTML" title="HTML5" />
+          <img src="../assets/css.png" alt="CSS" title="CSS3" />
+          <img src="../assets/js.png" alt="JAVASCRIPT" title="JavaScrip(EC5)" />
+          <img src="../assets/canva.png" alt="CANVA" title="Canva" />
+        </div>
+
         <div class="apresentation">
           <h4>oi, eu sou o Goku</h4>
           <p>
@@ -86,19 +86,11 @@
             vel pulvinar dolor laoreet act. Pellentesque consectetur ante orci,
             vitae interdum orci accumsan sed Suspen. Pellentesque consectetur
             ante orci, vitae interdum orci accumsan sed. Suspendisse ultrices
-            dolor nulla, vel pulvinar dolor laoreet act.
-            Pellentesque consectetur ante orci,
-            vitae interdum orci accumsan sed. Suspendisse ultrices dolor nulla,
-            vel pulvinar dolor laoreet act. Pellentesque consectetur ante orci,
-            vitae interdum orci accumsan sed Suspen. Pellentesque consectetur
-            ante orci, vitae interdum orci accumsan sed. Suspendisse ultrices
-            dolor nulla, vel pulvinar dolor laoreet act.
+            dolor nulla, vel pulvinar dolor laoreet act. eet act. Pellentesque
+            consectetur ante orci, vitae interdum orci accumsan sed Suspen.
           </p>
         </div>
       </div>
-
-
-  
     </section>
 
     <section id="second-container">
@@ -107,24 +99,69 @@
           <li>
             <a
               href="#projetos"
-              id="font-color"
               onclick="showContent('projetos')"
-              >Projetos</a
+              class="font-color"
+              >Projetos
+            </a>
+          </li>
+          <li>
+            <a
+              href="#sobre"
+              id="font-color"
+              onclick="showContent('about-container')"
+              class="font-color"
+            >
+              Sobre Steven
+            </a>
+          </li>
+
+          <li>
+            <a href="#artes" onclick="showContent('artes')" class="font-color"
+              >Artes</a
             >
           </li>
           <li>
-            <a href="#sobre" id="font-color" onclick="showContent('sobre')"
-              >Sobre Steven</a
-            >
+            <a href="#cv" onclick="showContent('cv')" class="font-color">CV</a>
           </li>
-          <li><a href="#artes" onclick="showContent('artes')">Artes</a></li>
-          <li><a href="#cv" onclick="showContent('cv')">CV</a></li>
         </ul>
       </div>
     </section>
 
     <section id="navbar-content">
-      <div id="projetos-container">oi</div>
+      <div>
+        <div id="projetos-container">
+
+
+
+          <div class="wrapper-content">
+
+
+
+            <div class="first-project">
+              <div>
+                <img class="img-project1" src="../assets/canva.png" alt="" />
+              </div>
+              <div class="project-title">
+                <h2>Maquina do tempo</h2>
+              </div>
+            </div>
+
+
+
+            <div class="second-project">
+              <div>
+                <img class="img-project2" src="../assets/css.png" alt="" />
+              </div>
+              <div class="project-title">
+                <h2>Maquina do tempo</h2>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
 
       <div id="about-container">about</div>
 
@@ -137,6 +174,8 @@
       <p>&copy; Steven Barreda</p>
     </footer>
 
-    <script src="../js/script.js"></script>
+    <script src="../js/fetch.js"></script>
+    <script src="../js/dataHora.js"></script>
+    <script src="../js/content.js"></script>
   </body>
 </html>
