@@ -16,7 +16,7 @@ header {
 section {
   background: white;
   border-radius: 10px;
-  padding: 15px;
+  padding: 5px;
   width: 50%;
   min-width: 600px;
   margin: 15px auto;
@@ -60,16 +60,18 @@ footer {
 }
 
 .apresentation {
-  margin: 55px auto 0 auto;
+  margin: 0 auto;
   width: 90%;
   background-color: rgb(231, 227, 227);
   font-size: small;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
+  padding: 20px;
 }
 
 #second-container {
   margin-top: -10px;
-  padding: 0 16px 0 16px;
+  padding: 5px;
+
 }
 
 ul.navbar {
@@ -142,7 +144,7 @@ ul.navbar li a {
 .social-card img {
   display: inline;
   vertical-align: middle;
-  width: 30px;
+  width: 20px;
 }
 
 .social-card a {
@@ -199,6 +201,10 @@ ul.navbar li a {
   background-color: rgba(31, 87, 255, 0.2);
 }
 
+.show {
+  display: block !important;
+}
+
 #navbar-content {
   display: none;
 }
@@ -229,4 +235,41 @@ ul.navbar li a:hover {
 }
 
 
+
+.wrapper-content {
+    display: grid;
+    grid-template-columns: 100% 100%;
+    grid-auto-rows: minmax(50px, auto);
+    gap: 1px;
+  }
+
+
+
+
+.img-project1 {
+  width: 70px;
+  height: auto;
+}
+.img-project2 {
+  width: 70px;
+  height: auto;
+}
+
+.first-project {
+  background-color: #2499c7;
+  width: 49%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  grid-column: 1;
+}
+
+.second-project {
+  background-color: #0073ff;
+  width: 49%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  grid-column: 2;
+}
 
