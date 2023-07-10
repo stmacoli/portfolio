@@ -9,10 +9,12 @@ function showContent(target) {
       projetosDiv.style.background = "red";
       projetosDiv.style.borderRadius = '10px'
       projetosDiv.classList.add('show')
-    } else if (target === "sobre") {
+    } else if (target === "about-container") {
+      sectionOnDisplay.classList.add('show')
       sectionOnDisplay.style.display = "block";
       aboutDiv.style.background = "blue";
       aboutDiv.style.display = "block";
+      projetosDiv.classList.add('show')
     } else if (target === "artes") {
       sectionOnDisplay.style.display = "block";
       navbarDiv.style.background = "yellow";
