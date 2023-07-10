@@ -15,13 +15,17 @@ function dataHora() {
     let data = new Date();
     let mes = (data.getMonth() + 1).toString().padStart(2, 0);
     let dia = data.getDate().toString().padStart(2, 0);
-    let hora = data.getHours().toString().padStart(2, 0);
+    let hora = 8 //data.getHours().toString().padStart(2, 0);
     let minutos = data.getMinutes().toString().padStart(2, 0);
+
+   const corBg = getComputedStyle(document.documentElement).getPropertyValue('--cor-bg');
+   const corNav = getComputedStyle(document.documentElement).getPropertyValue('--navbar-color');
+   const corFontNav = getComputedStyle(document.documentElement).getPropertyValue('--navbar-font-color');
   
     hoursDay.textContent = `${dia}/${mes} - ${hora}:${minutos}`;
   
     if (hora >= 6 && hora < 12) {
-      document.body.style.background = "#cdffff";
+      document.body.style.background = corBg;
       bShadow1.style.boxShadow = " 5px 5px 10px rgba(0, 102, 145, 0.7)";
       bShadow2.style.boxShadow = " 5px 5px 10px rgba(0, 102, 145, 0.7)";
   
@@ -30,9 +34,9 @@ function dataHora() {
   
       
   
-      navBar.style.backgroundColor = "#40cfff";
+      navBar.style.backgroundColor = corNav;
       fontNavbar.forEach((fontNavbar) => {
-        fontNavbar.style.color = "green";
+        fontNavbar.style.color = corFontNav;
       });
   
       rodapeNome.style.color = "#006691";
@@ -56,8 +60,7 @@ function dataHora() {
       bShadow2.style.boxShadow = " 5px 5px 10px rgba(70, 0, 150, 0.7)";
   
       img.src = "../assets/noite.png";
-      img.alt =
-        "Luzes das casas de uma cidade grande cintilando durante a noite  ";
+      img.alt = "Luzes das casas de uma cidade grande cintilando durante a noite  ";
   
       navBar.style.backgroundColor = "#191970";
       navBar.style.color = "#00FF00";
@@ -67,17 +70,17 @@ function dataHora() {
       });
   
       rodapeNome.style.color = "#c500ae";
-    } else {
+    } else  {
       document.body.style.background = "#D8BFD8";
       bShadow1.style.boxShadow = " 5px 5px 10px rgba(255,228,196, 0.7)";
       bShadow2.style.boxShadow = " 5px 5px 10px rgba(255,228,196, 0.7)";
       bShadow3.style.boxShadow = " 5px 5px 10px rgba(255,228,196, 0.7)";
   
-      img.src = "../assets/noite.png";
-      img.alt =
-        "Luzes das casas de uma cidade grande cintilando durante a noite  ";
+      //img.src = "#";
+      img.alt = "MADRUGADA!!";
   
-      navBar.style.backgroundColor = "#FFE4E1";
+      navBar.style.backgroundColor = "red";
+
       navBarColor.style.color = "#4B0082";
   
      

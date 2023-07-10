@@ -1,11 +1,36 @@
+
+
+.color1 {color: #15272d;}
+.color2 {color: #1a383c;}
+.color3 {color: #235153;}
+.color4 {color: #357471;}
+.color5 {color: #549c93;}
+
+.color11 {color: #079bff;}
+.color22 {color: #08baff;}
+.color33 {color: #08dbff;}
+.color44 {color: #52f9ff;}
+.color55 {color: #94fff7;}
+
+
+
+:root {
+  --cor-bg: #1a383c;
+  --navbar-color: #15272d;
+  --navbar-font-color: #549c93;
+}
+
+
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background: rgb(44, 44, 121);
+  background: white;
   font: normal 15pt arial;
+  font-size: 35px;
 }
 
 header {
@@ -14,7 +39,7 @@ header {
 }
 
 section {
-  background: white;
+  background: rgb(255, 255, 255);
   border-radius: 10px;
   padding: 5px;
   width: 50%;
@@ -29,6 +54,7 @@ div {
 }
 
 footer {
+  margin: 0 auto;
   color: white;
   text-align: center;
   font-style: italic;
@@ -41,7 +67,7 @@ footer {
 }
 
 #today {
-  font-size: small;
+  font-size: 15px;
 
 }
 #today p {
@@ -49,11 +75,11 @@ footer {
 }
 
 #img-today {
-  width: 125px;
+  width: 150px;
 }
 
 #portfolio-explanation img {
-  width: 25px;
+  width: 35px;
 }
 #portfolio-explanation h1 {
   margin-bottom: 0;
@@ -63,7 +89,7 @@ footer {
   margin: 0 auto;
   width: 90%;
   background-color: rgb(231, 227, 227);
-  font-size: small;
+  font-size: 18px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
   padding: 20px;
 }
@@ -83,10 +109,12 @@ ul.navbar {
   border-radius: 10px;
   display: flex; 
   justify-content: center;
+  
 }
 
 ul.navbar.hoverizado {
   background-color: #ff0000;
+  
 
 }
 
@@ -99,8 +127,10 @@ ul.navbar li a {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: small;
+  font-size: 20px;
   text-align: center;  
+  letter-spacing: 1px;
+  margin: 8px;
 }
 
 #third-container {
@@ -118,7 +148,7 @@ ul.navbar li a {
   display: inline-block;
   background-color: #e2d6ff;
   padding: 1px;
-  width: 91%;
+  width: 91.5%;
   margin-top: -7px;
   
 }
@@ -144,7 +174,7 @@ ul.navbar li a {
 .social-card img {
   display: inline;
   vertical-align: middle;
-  width: 20px;
+  width: 30px;
 }
 
 .social-card a {
@@ -158,17 +188,17 @@ ul.navbar li a {
  .princing-container {
   margin-top: 1px;
   display: flex;
- width: 92%;
+  width: 92%;
 } 
 
 .princing-container a {
   text-decoration: none;
   color: #000000;
-  font-size: 10px;
+  font-size: 11px;
 }
 
 .dolar-container {
-  height: 12px;
+  height: 13px;
   background-color: rgba(0, 255, 255, 0.7);
   display: flex;
   justify-content: center;
@@ -177,7 +207,7 @@ ul.navbar li a {
 }
 
 .euro-container {
-  height: 12px;
+  height: 13px;
   background-color: rgba(31, 87, 255, 0.7);
   display: flex;
   justify-content: center;
@@ -185,7 +215,7 @@ ul.navbar li a {
 }
 
 .btc-container {
-  height: 12px;
+  height: 13px;
   background-color: rgba(117, 186, 255, 0.7);
   display: flex;
   justify-content: center;
@@ -197,7 +227,7 @@ ul.navbar li a {
   padding: 1px;
   height: 30px;
   
-  width: 91%;
+  width: 91.5%;
   background-color: rgba(31, 87, 255, 0.2);
 }
 
@@ -237,39 +267,113 @@ ul.navbar li a:hover {
 
 
 .wrapper-content {
+
+    font-size: 18px;
     display: grid;
-    grid-template-columns: 100% 100%;
+    grid-template-columns: 50% 50%;
     grid-auto-rows: minmax(50px, auto);
-    gap: 1px;
+    padding: 10px;
+    margin: 0 auto;
+    grid-column-gap: 1px;
+    grid-row-gap: 5px;
+    
   }
 
 
 
 
 .img-project1 {
-  width: 70px;
+  width: 100px;
   height: auto;
 }
 .img-project2 {
-  width: 70px;
+  width: 100px;
   height: auto;
 }
 
 .first-project {
-  background-color: #2499c7;
-  width: 49%;
+  background-color: #e7e3e3;
+  width: 95%;
   display: flex;
   justify-content: center; 
   align-items: center;
-  grid-column: 1;
+  grid-column: 1 / span 1;
+  border: 1px rgba(0, 0, 0, 0.1) solid;
+
 }
 
 .second-project {
-  background-color: #0073ff;
-  width: 49%;
+  background-color: #e7e3e3;
+  width: 95%;
   display: flex;
   justify-content: center; 
   align-items: center;
-  grid-column: 2;
+  grid-column: 2 / span 1;
+  border: 1px rgba(0, 0, 0, 0.1) solid;
+
 }
+
+.third-project {
+  background-color: #e7e3e3;
+  width: 95%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  grid-column: 1 / span 1;
+  grid-row: 2;
+  border: 1px rgba(0, 0, 0, 0.1) solid;
+
+}
+
+.fourth-project {
+  background-color: #e7e3e3;
+  width: 95%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  grid-column: 2 / span 1;
+  grid-row: 2;
+  border: 1px rgba(0, 0, 0, 0.1) solid;
+}
+
+
+.img-container1 {
+  width: 30%;
+}
+
+.img-container2 {
+  width: 30%;
+}
+
+.img-container3 {
+  width: 30%;
+}
+
+.img-container4 {
+  width: 30%;
+}
+
+
+.project-title {
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
