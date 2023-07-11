@@ -292,16 +292,7 @@ ul.navbar li a:hover {
 
 
 
-/*.first-project {
-  background-color: #e7e3e3;
-  width: 95%;
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  grid-column: 1 / span 1;
-  border: 1px rgba(0, 0, 0, 0.1) solid;
 
-}*/
 
 .first-project {
   background-color: #e7e3e3;
@@ -316,9 +307,8 @@ ul.navbar li a:hover {
 .second-project {
   background-color: #e7e3e3;
   width: 95%;
-  display: flex;
-  justify-content: center; 
-  align-items: center;
+  display: inline-block;
+  text-align: center;
   grid-column: 2 / span 1;
   border: 1px rgba(0, 0, 0, 0.1) solid;
 
@@ -327,9 +317,8 @@ ul.navbar li a:hover {
 .third-project {
   background-color: #e7e3e3;
   width: 95%;
-  display: flex;
-  justify-content: center; 
-  align-items: center;
+  display: inline-block;
+  text-align: center;
   grid-column: 1 / span 1;
   grid-row: 2;
   border: 1px rgba(0, 0, 0, 0.1) solid;
@@ -339,9 +328,8 @@ ul.navbar li a:hover {
 .fourth-project {
   background-color: #e7e3e3;
   width: 95%;
-  display: flex;
-  justify-content: center; 
-  align-items: center;
+  display: inline-block;
+  text-align: center;
   grid-column: 2 / span 1;
   grid-row: 2;
   border: 1px rgba(0, 0, 0, 0.1) solid;
@@ -350,7 +338,7 @@ ul.navbar li a:hover {
 
 .img-container1 {
   width: 100%;
-  margin-left: -8px;
+  padding: 0;
 }
 
 .img-project1 {
@@ -359,31 +347,61 @@ ul.navbar li a:hover {
 }
 
 .first-project:hover {
-  background-color: #15272d4e;
+  background-color: #15272d58;
 }
 
 
 
 
 .img-container2 {
-  width: 30%;
+  width: 100%;
+  padding: 0;
 }
 
 .img-project2 {
-  width: 100px;
+  width: 100%;
+  height: auto;
+}
+.second-project:hover {
+  background-color: #15272d58;
+}
+
+
+
+
+.img-container3 {
+  width: 100%;
+  padding: 0;
+}
+
+.img-project3 {
+  width: 100%;
   height: auto;
 }
 
-.img-container3 {
-  width: 30%;
+.third-project:hover {
+  background-color: #15272d58;
 }
+
+
+
 
 .img-container4 {
-  width: 30%;
+  width: 100%;
+  padding: 0;
+}
+
+.img-project4 {
+  width: 100%;
+  height: auto;
+}
+
+.fourth-project:hover {
+  background-color: #15272d58;
 }
 
 
-.project-title1 {
+.project-title {
   background-color: #235153;
 
 } 
