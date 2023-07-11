@@ -53,6 +53,14 @@ div {
   padding: 8px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000000;
+}
+
 footer {
   margin: 0 auto;
   color: white;
@@ -282,21 +290,24 @@ ul.navbar li a:hover {
 
 
 
-.img-project1 {
-  width: 100px;
-  height: auto;
-}
-.img-project2 {
-  width: 100px;
-  height: auto;
-}
 
-.first-project {
+
+/*.first-project {
   background-color: #e7e3e3;
   width: 95%;
   display: flex;
   justify-content: center; 
   align-items: center;
+  grid-column: 1 / span 1;
+  border: 1px rgba(0, 0, 0, 0.1) solid;
+
+}*/
+
+.first-project {
+  background-color: #e7e3e3;
+  width: 95%;
+  display: inline-block;
+  text-align: center;
   grid-column: 1 / span 1;
   border: 1px rgba(0, 0, 0, 0.1) solid;
 
@@ -338,11 +349,29 @@ ul.navbar li a:hover {
 
 
 .img-container1 {
-  width: 30%;
+  width: 100%;
+  margin-left: -8px;
 }
+
+.img-project1 {
+  width: 100%;
+  height: auto;
+}
+
+.first-project:hover {
+  background-color: #15272d4e;
+}
+
+
+
 
 .img-container2 {
   width: 30%;
+}
+
+.img-project2 {
+  width: 100px;
+  height: auto;
 }
 
 .img-container3 {
@@ -354,9 +383,12 @@ ul.navbar li a:hover {
 }
 
 
-.project-title {
-  width: 50%;
-}
+.project-title1 {
+  background-color: #235153;
+
+} 
+
+
 
 
 
