@@ -407,17 +407,73 @@ ul.navbar li a:hover {
 } 
 
 
+#calculator {
+  display: none;
+  overflow: auto;
+  
+
+}
+
+
+.overlay {
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 90%;
+  background-color: rgba(196, 196, 196, 0.942); /* Cor e opacidade do overlay */
+  z-index: 9999; /* Valor alto de z-index para ficar acima das outras divs */
+  display: block;
+}
+
+.calculator-img-container {
+  background-color: #aaaaaa7e;
+  margin-top: 20px;
+  margin-left: 20px;
+  min-width: 500px;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+
+.calculator-img-container img {
+  width: 100%;
+}
 
 
 
 
+.project-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.overlay-title {
+  width: 55%;
+  max-height: 750px;
+  background-color: #efefef;
+  margin: 0 auto;
+  border-radius: 10px;
+  
+}
+
+.overlay-title h1 {
+  font-size: 75px;
+}
 
 
+.tech-img img {
+  width: 70px;
+}
 
-
-
-
-
+.project-contact {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
 
 
 
