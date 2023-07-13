@@ -423,8 +423,8 @@ ul.navbar li a:hover {
   transform: translate(-50%, -50%);
   width: 80%;
   height: 90%;
-  background-color: rgba(196, 196, 196, 0.942); /* Cor e opacidade do overlay */
-  z-index: 9999; /* Valor alto de z-index para ficar acima das outras divs */
+  background-color: rgba(196, 196, 196, 0.942); 
+  z-index: 9999; 
   display: block;
 }
 
@@ -477,7 +477,10 @@ ul.navbar li a:hover {
 
 
 
-
+.close-tab {
+  margin-left: 73vw;
+  padding: 0;
+}
 
 
 
