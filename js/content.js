@@ -33,7 +33,20 @@ function showContent(target) {
 
 
 
+  let overlayDiv = document.getElementById("calculator");
   document.getElementById("open-overlay").addEventListener("click", function() {
-    var overlayDiv = document.getElementById("calculator");
     overlayDiv.style.display = "block";
   });
+
+  function closeTabs() {
+  
+    if (overlayDiv.style.display === "block") {
+      overlayDiv.style.display = "none";
+    }
+  }
+
+
+
+
+
+
