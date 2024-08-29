@@ -39,6 +39,8 @@ header {
 }
 
 section {
+  display: flex; /* Ativa o Flexbox no container */
+  justify-content: space-evenly; /* Distribui espaço uniformemente entre as listas incluindo bordas */
   background: rgb(255, 255, 255);
   border-radius: 10px;
   padding: 5px;
@@ -141,6 +143,9 @@ ul.navbar li a {
   margin: 8px;
 }
 
+
+
+
 #third-container {
   background: rgb(255, 255, 255);
   border-radius: 10px;
@@ -239,9 +244,9 @@ ul.navbar li a {
   background-color: rgba(31, 87, 255, 0.2);
 }
 
-.show {
+/*.show {
   display: block !important;
-}
+}*/
 
 #navbar-content {
   display: none;
@@ -484,5 +489,121 @@ ul.navbar li a:hover {
 
 
 
+.dropdown {
+  background-color: #1a383c;
+  display: flex; /* Ativa o Flexbox no container */
+  justify-content: space-around;
+  width: 90%;
+}
+
+/* Estilo para o botão */
+.dropdown-btn1 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilo para o conteúdo do dropdown */
+.dropdown-content1 {
+  display: none; /* Esconde o menu por padrão */
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 10px;
+  padding: 0;
+  width: 50%;
+  list-style-type: none;
+}
+
+/* Estilo para os links dentro do dropdown */
+.dropdown-content1 li a {
+  list-style-type: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content1 li a:hover {
+  background-color: #f1f1f1;
+}
 
 
+/* Estilo para o botão */
+.dropdown-btn2 {
+  background-color: #e1f12d;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilo para o conteúdo do dropdown */
+.dropdown-content2 {
+  display: none; /* Esconde o menu por padrão */
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 10px;
+  padding: 0;
+  width: 50%;
+  list-style-type: none;
+  
+}
+
+/* Estilo para os links dentro do dropdown */
+.dropdown-content2 li a {
+   color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content2 li a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Estilo para o botão */
+.dropdown-btn3 {
+  background-color: #f12dea;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilo para o conteúdo do dropdown */
+.dropdown-content3 {
+  display: none; /* Esconde o menu por padrão */
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 10px;
+  padding: 0;
+  width: 50%;
+  list-style-type: none;
+  
+}
+
+/* Estilo para os links dentro do dropdown */
+.dropdown-content3 li a {
+   color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content3 li a:hover {
+  background-color: #f1f1f1;
+}
