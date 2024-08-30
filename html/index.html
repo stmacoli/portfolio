@@ -94,31 +94,18 @@
 
     </section>
     <section>
-      <div class="dropdown">
-          <button onclick="createSection()" class="dropdown-btn1">Projetos</button>
-          <ul class="dropdown-content1">
-            <li><a href="#opcao1">Opção 1</a></li>
-            <li><a href="#opcao2">Opção 2</a></li>
-            <li><a href="#opcao3">Opção 3</a></li>
-          </ul>
-     
-      
-          <button class="dropdown-btn2">Sobre Steven</button>
-          <ul class="dropdown-content2">
-            <li><a href="#opcao1">Opção 1</a></li>
-            <li><a href="#opcao2">Opção 2</a></li>
-            <li><a href="#opcao3">Opção 3</a></li>
-          </ul>
-         
-          <button class="dropdown-btn3">Sobre Steven</button>
-          <ul class="dropdown-content3">
-            <li><a href="#opcao1">Opção 1</a></li>
-            <li><a href="#opcao2">Opção 2</a></li>
-            <li><a href="#opcao3">Opção 3</a></li>
-          </ul>
-          
-        
-    </section>
+       <!-- Menu usando ul e li -->
+    <ul class="menu">
+      <li><a href="javascript:void(0)" onclick="toggleSection('Home')">Home</a></li>
+      <li><a href="javascript:void(0)" onclick="toggleSection('About')">About</a></li>
+      <li><a href="javascript:void(0)" onclick="toggleSection('Services')">Services</a></li>
+      <li><a href="javascript:void(0)" onclick="toggleSection('Contact')">Contact</a></li>
+  </ul>
+  
+</section>
+
+<!-- Container onde as novas sections serão inseridas -->
+<div id="section-container"></div>
 
     <div id="section-container">
       
