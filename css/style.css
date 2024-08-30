@@ -288,7 +288,7 @@ ul.navbar li a:hover {
     grid-auto-rows: minmax(50px, auto);
     padding: 10px;
     margin: 0 auto;
-    grid-column-gap: 1px;
+    grid-column-gap: 1px; 
     grid-row-gap: 5px;
     
   }
@@ -526,4 +526,17 @@ ul.menu li a:hover {
   min-width: 600px;
   margin: 15px auto;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
+}
+
+
+#section-About {
+  background-color: #2499c7;
+}
+
+#section-Services {
+  background-color: #2499c7;
+}
+
+#section-Contact {
+  background-color: #2499c7;
 }
