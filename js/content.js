@@ -11,9 +11,23 @@ function toggleSection(title) {
       var newSection = document.createElement('section');
       newSection.className = 'new-section';
       newSection.id = 'section-' + title; // Atribui um id único à section
+      if (title === 'Home') {
+        // Adiciona conteúdo à nova section
+        newSection.innerHTML = '<h2>' + title + '</h2> <p> FUNCIONOU CABRON.</p>';
+        
+      } else if (title === 'About') {
+        // Adiciona conteúdo à nova section
+        newSection.innerHTML = '<h2>' + title + '</h2> <p> FUNCIONOU de novo CABRON.</p>';
+        
+      } else if (title === "Services") {
+        // Adiciona conteúdo à nova section
+        newSection.innerHTML = '<h2>' + title + '</h2> <p> FUNCIONOU pela terceira vez de novo CABRON.</p>';
 
-      // Adiciona conteúdo à nova section
-      newSection.innerHTML = '<h2>' + title + '</h2><p>Conteúdo da seção ' + title + '.</p>';
+      }else { 
+
+        // Adiciona conteúdo à nova section
+        newSection.innerHTML = '<h2>' + title + '</h2><p> AHORA SI MANITO, MUY BIEN</p>';
+      }
 
       // Insere a nova section dentro do container
       document.getElementById('section-container').appendChild(newSection);
