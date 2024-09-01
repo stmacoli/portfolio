@@ -245,30 +245,6 @@ ul.navbar li a {
   background-color: rgba(31, 87, 255, 0.2);
 }
 
-/*.show {
-  display: block !important;
-}*/
-
-#navbar-content {
-  display: none;
-}
-
-#projetos-container {
-  display: none;
-  
-}
-#about-container {
-  display: none;
-  
-}
-#arts-container {
-  display: none;
-  
-}
-#cv-container {
-  display: none;
-  
-}
 
 
 
@@ -529,14 +505,42 @@ ul.menu li a:hover {
 }
 
 
-#section-About {
-  background-color: #2499c7;
-}
+
 
 #section-Services {
   background-color: #2499c7;
 }
 
-#section-Contact {
-  background-color: #2499c7;
+
+
+
+#perfil {
+  font-size: 15px;
+
 }
+#perfil p {
+  margin-top: 3px;
+}
+
+#img-perfil {
+  width: 400px;
+}
+
+.img-perfil-container {
+  
+  background-color: #e2d6ff;
+  padding: 1px;
+  width: 91.5%;
+  
+}
+
+.social-card1 img {
+  width: 30px;
+}
+
+.social-card1 img {
+ 
+  vertical-align: middle;
+  width: 30px;
+}
+
