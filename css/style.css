@@ -180,8 +180,7 @@ ul.navbar li a {
 
 .title-div {
   letter-spacing: 3px;
-  margin: 0 auto -20px auto;
-  
+  margin: 0 auto 20px auto;
 }
 
 
@@ -542,5 +541,27 @@ ul.menu li a:hover {
  
   vertical-align: middle;
   width: 30px;
+}
+
+
+
+.apresentation-cv1 {
+  justify-content: space-evenly; /* Distribui espaço uniformemente entre as listas incluindo bordas */
+  margin: 15px 10px 15px 10px;
+  width: 20vw;
+  background-color: rgb(231, 227, 227);
+  font-size: 18px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
+  padding: 20px;
+}
+
+.apresentation-cv1 h4 {
+  margin-right: 100%;
+  white-space: nowrap; /*impede a quebra de linha*/
+}
+  
+.title-div2 {
+  margin-right: 100%;
+  white-space: nowrap; /*impede a quebra de linha*/
 }
 

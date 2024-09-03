@@ -111,54 +111,49 @@ function toggleSection(title) {
     `
 
     let content_cv = `
-      <div> 
-        <div>
+    
+    <div>
+        <div class="title-div2">
+          <h3>CV Barreda:</h3>
+        </div>
+
+
         
-          <div class="title-div">
-            <h4>CV Barreda:</h4>
-          </div>
-
-          <div class="apresentation">
-
-            <p>
+        <div class="apresentation-cv1">
+        <h4>Dados Pessoais:</h4>
+          <p>
             Solor nulla, vel pulvinar dolor laoreet act.vPellentesque consectetur ante orci,
             vitae interdum orci accumsan sed Suspen. Pellentesque consectetur
             ante orci, vitae interdum orci accumsan sed. Suspendisse ultrices
             dolor nulla, vel pulvinar dolor laoreet act.
           </p>
-
-            
-          </div>
         </div>
-        <div>
         
-         
 
-          <div class="apresentation">
 
-            <div class="social-card1">
-              <a href="https://github.com/stmacoli" target="_blank">
-              <img src="../assets/github.png" alt="LinkedIn" />
-                GitHub</a>
-            </div>
-
-            <div class="social-card1">
-              <a href="https://www.linkedin.com/in/steven-machado-oliveira/" target="_blank">
-              <img src="../assets/linkedin.png" alt="GitHub" />LinkedIn</a>
-            </div>
-            
+        
+        <div class="apresentation-cv1">
+        <h4>Tecnologias:</h4>
+          <div class="social-card1">
+            <a href="https://github.com/stmacoli" target="_blank">
+            <img src="../assets/github.png" alt="LinkedIn" />
+            GitHub</a>
+          </div>
+          <div class="social-card1">
+            <a href="https://www.linkedin.com/in/steven-machado-oliveira/" target="_blank">
+            <img src="../assets/linkedin.png" alt="GitHub" />LinkedIn</a>
           </div>
         </div>
+        
       
       </div>  
 
-      <div id="portfolio-explanation">
+      
 
         
 
-        <div class="apresentation">
-
-          <h3>oi, eu sou o Goku</h3>
+      <div class="apresentation-cv1">
+          <h4>Dados Profissionais:</h4>          
           <p>
             Suspendisse vel hendrerit mi. Integer convallis neque massa, eu
             molestie nisl tincidunt eget. Pellentesque consectetur ante orci,
@@ -168,14 +163,13 @@ function toggleSection(title) {
             dolor nulla, vel pulvinar dolor laoreet act.Pellentesque consectetur ante orci,
             vitae interdum orci accumsan sed Susisse ultrices
             dolor nulla, vel pulvinar dolor laoreet act.vPellentesque consectetur ante orci,
-            vitae interdum orci accumsan sed Suspen. Pellentesque consectetur
-            ante orci, vitae interdum orci accumsan sed. Suspendisse ultrices
+            vitae interdum orci accumsan sed SusSuspendisse ultrices
             dolor nulla, vel pulvinar dolor laoreet act.
           </p>
 
-        </div>
-
       </div>
+
+      
    
     `
 
