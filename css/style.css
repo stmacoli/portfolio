@@ -39,6 +39,8 @@ header {
 }
 
 section {
+  display: flex; /* Ativa o Flexbox no container */
+  justify-content: space-evenly; /* Distribui espaço uniformemente entre as listas incluindo bordas */
   background: rgb(255, 255, 255);
   border-radius: 10px;
   padding: 5px;
@@ -47,6 +49,7 @@ section {
   margin: 15px auto;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
 }
+
 
 div {
   text-align: center;
@@ -141,6 +144,9 @@ ul.navbar li a {
   margin: 8px;
 }
 
+
+
+
 #third-container {
   background: rgb(255, 255, 255);
   border-radius: 10px;
@@ -174,8 +180,7 @@ ul.navbar li a {
 
 .title-div {
   letter-spacing: 3px;
-  margin: 0 auto -20px auto;
-  
+  margin: 0 auto 20px auto;
 }
 
 
@@ -239,30 +244,6 @@ ul.navbar li a {
   background-color: rgba(31, 87, 255, 0.2);
 }
 
-.show {
-  display: block !important;
-}
-
-#navbar-content {
-  display: none;
-}
-
-#projetos-container {
-  display: none;
-  
-}
-#about-container {
-  display: none;
-  
-}
-#arts-container {
-  display: none;
-  
-}
-#cv-container {
-  display: none;
-  
-}
 
 
 
@@ -282,7 +263,7 @@ ul.navbar li a:hover {
     grid-auto-rows: minmax(50px, auto);
     padding: 10px;
     margin: 0 auto;
-    grid-column-gap: 1px;
+    grid-column-gap: 1px; 
     grid-row-gap: 5px;
     
   }
@@ -484,5 +465,103 @@ ul.navbar li a:hover {
 
 
 
+  /* Estilos para o menu */
+  ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
 
+ul.menu li {
+    float: left;
+}
+
+ul.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.menu li a:hover {
+    background-color: #111;
+}
+
+/* Estilos para as sections criadas */
+.new-section {
+  display: flex; /* Ativa o Flexbox no container */
+  justify-content: space-evenly; /* Distribui espaço uniformemente entre as listas incluindo bordas */
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 5px;
+  width: 50%;
+  min-width: 600px;
+  margin: 15px auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
+}
+
+
+
+
+#section-Services {
+  background-color: #2499c7;
+}
+
+
+
+
+#perfil {
+  font-size: 15px;
+
+}
+#perfil p {
+  margin-top: 3px;
+}
+
+#img-perfil {
+  width: 400px;
+}
+
+.img-perfil-container {
+  
+  background-color: #e2d6ff;
+  padding: 1px;
+  width: 91.5%;
+  
+}
+
+.social-card1 img {
+  width: 30px;
+}
+
+.social-card1 img {
+ 
+  vertical-align: middle;
+  width: 30px;
+}
+
+
+
+.apresentation-cv1 {
+  justify-content: space-evenly; /* Distribui espaço uniformemente entre as listas incluindo bordas */
+  margin: 15px 10px 15px 10px;
+  width: 20vw;
+  background-color: rgb(231, 227, 227);
+  font-size: 18px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
+  padding: 20px;
+}
+
+.apresentation-cv1 h4 {
+  margin-right: 100%;
+  white-space: nowrap; /*impede a quebra de linha*/
+}
+  
+.title-div2 {
+  margin-right: 100%;
+  white-space: nowrap; /*impede a quebra de linha*/
+}
 

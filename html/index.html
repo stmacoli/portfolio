@@ -11,17 +11,14 @@
     <section id="first-container">
       <div id="today">
         <div>
-          <img id="img-today" src="#" alt="IMG-ERROR" />
+          <img id="img-today" src="/assets/noite.png" alt="IMG-ERROR" />
         </div>
 
         <div class="data-tempo">
           <div>
             <p>TIMES ERROR</p>
           </div>
-          <!--
-        <div>
-          <p>16°</p>
-        </div>
+          
 
         --></div>
 
@@ -91,105 +88,43 @@
           </p>
         </div>
       </div>
+
     </section>
+    <section>
+       <!-- Menu usando ul e li -->
+    <ul class="menu">
+      <li><a href="javascript:void(0)" onclick="toggleSection('Projetos')">Projetos</a></li>
+      <li><a href="javascript:void(0)" onclick="toggleSection('About')">Sobre Steven</a></li>
+      <li><a href="javascript:void(0)" onclick="toggleSection('Services')">Services</a></li>
+      <li><a href="javascript:void(0)" onclick="toggleSection('Contact')">Curriculum Vitae</a></li>
+  </ul>
+  
+</section>
 
-    <section id="second-container">
-      <div>
-        <ul class="navbar">
-          <li>
-            <a
-              href="#projetos"
-              onclick="showContent('projetos')"
-              class="font-color"
-              >Projetos
-            </a>
-          </li>
-          <li>
-            <a
-              href="#sobre"
-              id="font-color"
-              onclick="showContent('about-container')"
-              class="font-color"
-            >
-              Sobre Steven
-            </a>
-          </li>
+<!-- Container onde as novas sections serão inseridas -->
+<div id="section-container"></div>
 
-          <li>
-            <a href="#artes" onclick="showContent('artes')" class="font-color"
-              >Artes</a
-            >
-          </li>
-          <li>
-            <a href="#cv" onclick="showContent('cv')" class="font-color">CV</a>
-          </li>
-        </ul>
-      </div>
-    </section>
+  
 
-    <section id="navbar-content">
-      <div>
-        <div class="wrapper-content">
-          <div class="first-project">
-            <a
-              class="btn-project1"
-              href="#calculator"
-              id="open-overlay"
-              onclick="showContent('calculator')"
-            >
-              <div class="img-container1">
-                <img
-                  class="img-project1"
-                  src="../assets/calculadora.png"
-                  alt=""
-                />
-              </div>
-              <div class="project-title">
-                <h2>Banco NW Payment</h2>
-              </div>
-            </a>
-          </div>
+                            
 
-          <div class="second-project">
-            <div class="img-container2">
-              <img class="img-project2" src="../assets/teclado.png" alt="" />
-            </div>
-            <div class="project-title">
-              <h2>Teclado</h2>
-            </div>
-          </div>
 
-          <div class="third-project">
-            <div class="img-container3">
-              <img class="img-project3" src="../assets/countdown.png" alt="" />
-            </div>
-            <div class="project-title">
-              <h2>Contagem Regressiva</h2>
-            </div>
-          </div>
 
-          <div class="fourth-project">
-            <div class="img-container4">
-              <img class="img-project4" src="../assets/pokedex.png" alt="" />
-            </div>
-            <div class="project-title">
-              <h2>Pokemon API</h2>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div id="about-container">about</div>
 
-      <div id="arts-container">about</div>
 
-      <div id="cv-container">about</div>
+
+
+
+  
+
+     
     </section>
 
     <section class="overlay" id="calculator">
       <div class="close-tab">
         <button>
-          <img src="../assets/close.png" alt="" onclick="closeTabs()">
+          <img src="../assets/close.png" alt="" onclick="closeTabs()" />
         </button>
       </div>
       <div id="show-calculator">
@@ -233,25 +168,24 @@
               <h3>oi, eu sou o Goku</h3>
               <p>
                 Suspendisse vel hendrerit mi. Integer convallis neque massa, eu
-                molestie nisl tincidunt eget. Pellentesque consectetur ante orci,
-                vitae interdum orci accumsan sed. Suspendisse ultrices dolor nulla,
-                vel pulvinar dolor laoreet act. Pellentesque consectetur ante orci,
-                vitae interdum orci accumsan sed Suspen. Pellentesque consectetur
-                ante orci, vitae interdum orci accumsan sed. Suspendisse ultrices
-               llentesque consectetur ante orci,
-                vitae interdum orci accumsan sed. Suspendisse ultrices dolor nulla,
-                vel pulvinar dolor laoreet act. Pellentesque consectetur ante orci,
-                vitae interdum orci accumsan sed Suspen. Pellentesque consectetur
-                ante orci, vitae interssa, eu
-                molestie nisl tincidunt eget. Pellentesque consectetur ante orci,
-                vitae interdum orci accumsan sed. Suspendisse ultrices dolor nulla,
-                vel pulvinar dolor laoreet act. Pellssa, eu
-                molestie nisl tincidunt eget. Pellentesque consectetur ante orci,
-                vitae interdum orci accumsan sed. Suspendisse ultrices dolor nulla,
+                molestie nisl tincidunt eget. Pellentesque consectetur ante
+                orci, vitae interdum orci accumsan sed. Suspendisse ultrices
+                dolor nulla, vel pulvinar dolor laoreet act. Pellentesque
+                consectetur ante orci, vitae interdum orci accumsan sed Suspen.
+                Pellentesque consectetur ante orci, vitae interdum orci accumsan
+                sed. Suspendisse ultrices llentesque consectetur ante orci,
+                vitae interdum orci accumsan sed. Suspendisse ultrices dolor
+                nulla, vel pulvinar dolor laoreet act. Pellentesque consectetur
+                ante orci, vitae interdum orci accumsan sed Suspen. Pellentesque
+                consectetur ante orci, vitae interssa, eu molestie nisl
+                tincidunt eget. Pellentesque consectetur ante orci, vitae
+                interdum orci accumsan sed. Suspendisse ultrices dolor nulla,
+                vel pulvinar dolor laoreet act. Pellssa, eu molestie nisl
+                tincidunt eget. Pellentesque consectetur ante orci, vitae
+                interdum orci accumsan sed. Suspendisse ultrices dolor nulla,
                 vel pulvinar dolor laoreet act. Pell
               </p>
             </div>
-
           </div>
         </div>
       </div>
