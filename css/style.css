@@ -533,15 +533,10 @@ ul.menu li a:hover {
   
 }
 
-.social-card1 img {
-  width: 30px;
-}
 
-.social-card1 img {
- 
-  vertical-align: middle;
-  width: 30px;
-}
+
+
+
 
 
 
@@ -555,6 +550,11 @@ ul.menu li a:hover {
   padding: 20px;
 }
 
+.apresentation-tec1 {
+  display: flex;
+  
+}
+
 .apresentation-cv1 h4 {
   margin-right: 100%;
   white-space: nowrap; /*impede a quebra de linha*/
@@ -563,5 +563,83 @@ ul.menu li a:hover {
 .title-div2 {
   margin-right: 100%;
   white-space: nowrap; /*impede a quebra de linha*/
+}
+
+.title-div2 p {
+  font-size: medium;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ficha-cadastral {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  
+  
+  
+}
+.campo {
+  margin-bottom: 10px;
+  
+ 
+  
+  
+}
+.campo label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  margin-right: 100%;
+  white-space: nowrap;
+  
+}
+
+.campo p {
+  margin-right: 100%;
+  white-space: nowrap;  
+}
+
+
+
+
+
+
+
+
+.display-tecnologias {
+  display: flex;
+  flex-direction: column; /* Alinha os itens em coluna */
+}
+
+.social-card1 {
+  display: flex;
+  align-items: center; /* Alinha o conteúdo dentro da div verticalmente */
+  margin-bottom: 10px; /* Espaço entre os itens */  
+}
+
+.social-card1 img {
+  width: 30px;
+  margin-right: 10px; /* Espaço entre a imagem e o texto */
 }
 

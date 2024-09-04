@@ -2,7 +2,7 @@
 function toggleSection(title) {
   let content_project = `
       
-        <div class="wrapper-content">
+        <div id="projects-ancora" class="wrapper-content">
 
           <div class="first-project">
 
@@ -55,9 +55,9 @@ function toggleSection(title) {
 
     let content_about = `
      
-      <div class="img-perfil-container">
+      <div id="about-ancora" class="img-perfil-container">
 
-        <div id="perfil">
+        <div  id="perfil">
 
             <div>
                <img id="img-perfil" src="/assets/hackerman.png" alt="Hackerman from Kung Furry" />
@@ -89,6 +89,8 @@ function toggleSection(title) {
           <h1>Steven Barreda</h1>
         </div>
 
+       
+
         <div class="apresentation">
           <h3>oi, eu sou o Goku</h3>
           <p>
@@ -112,38 +114,81 @@ function toggleSection(title) {
 
     let content_cv = `
     
-    <div>
+    <div id="cv-ancora">
         <div class="title-div2">
           <h3>CV Barreda:</h3>
+          <p><a href="/assets/cv.pdf" download="Steven Barreda CV - Dev.pdf">Clique aqui para baixar o meu Curriculum</a></p>
         </div>
 
 
         
         <div class="apresentation-cv1">
         <h4>Dados Pessoais:</h4>
-          <p>
-            Solor nulla, vel pulvinar dolor laoreet act.vPellentesque consectetur ante orci,
-            vitae interdum orci accumsan sed Suspen. Pellentesque consectetur
-            ante orci, vitae interdum orci accumsan sed. Suspendisse ultrices
-            dolor nulla, vel pulvinar dolor laoreet act.
-          </p>
+          <div class="ficha-cadastral">
+ 
+  
+  <div class="campo">
+      <p> <label>Nome:</label> Steven Barreda</p>
+  </div>
+  
+  <div class="campo">
+      <label>Email:</label>
+      <p>seu.email@gmail.com</p>
+  </div>
+  
+  <div class="campo">
+      <label>Telefone:</label>
+      <p>(11) 9 xxxx-xxxx</p>
+  </div>
+  
+  <div class="campo">
+      <label>Idade:</label>
+      <p>30 anos</p>
+  </div>
+  
+  <div class="campo">
+      <label>Observações:</label>
+      <p>Alguma observação adicional.</p>
+  </div>
+</div>
         </div>
         
 
 
-        
-        <div class="apresentation-cv1">
+      <div class="apresentation-cv1">
         <h4>Tecnologias:</h4>
-          <div class="social-card1">
-            <a href="https://github.com/stmacoli" target="_blank">
-            <img src="../assets/github.png" alt="LinkedIn" />
-            GitHub</a>
+        <div class="apresentation-tec1">
+          <div class="display-tecnologias"> 
+            <div class="social-card1">
+              <a href="https://github.com/stmacoli" target="_blank">
+              <img src="../assets/github.png" alt="LinkedIn" />
+              GitHub</a>
+            </div>
+            <div class="social-card1">
+              <a href="#" target="_blank">
+              <img src="../assets/js.png" alt="Javascript simble" />Javascript(EC5)</a>
+            </div>
+            <div class="social-card1">
+              <a href="#" target="_blank">
+              <img src="../assets/canva.png" alt="Canva simble" />Canva</a>
+            </div>
           </div>
-          <div class="social-card1">
-            <a href="https://www.linkedin.com/in/steven-machado-oliveira/" target="_blank">
-            <img src="../assets/linkedin.png" alt="GitHub" />LinkedIn</a>
+          <div class="display-tecnologias"> 
+            <div class="social-card1">
+              <a href="#" target="_blank">
+              <img src="../assets/html.png" alt="HTML5 simble" />HTML5</a>
+            </div>
+            <div class="social-card1">
+              <a href="#" target="_blank">
+              <img src="../assets/css.png" alt="CSS3 simble" />CSS3</a>
+            </div>
+            <div class="social-card1">
+              <a href="#" target="_blank">
+              <img src="../assets/python.png" alt="Python simble" />Python</a>
+            </div>
           </div>
         </div>
+      </div> 
         
       
       </div>  
