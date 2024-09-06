@@ -4,67 +4,12 @@
     <meta charset="UTF-8" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <link rel="stylesheet" href="../css/style.css" />
     <title>Home</title>
   </head>
   <body onload="dataHora()">
     <section id="first-container">
-      <div id="today">
-        <div>
-          <img id="img-today" src="/assets/noite.png" alt="IMG-ERROR" />
-        </div>
-
-        <div class="data-tempo">
-          <div>
-            <p>TIMES ERROR</p>
-          </div>
-          
-
-        --></div>
-
-        <div class="princing-container">
-          <div class="dolar-container">
-            <a href="https://coinmarketcap.com/pt-br/" target="_blank">
-              <p id="dolar">dolar error</p>
-            </a>
-          </div>
-
-          <div class="euro-container">
-            <a href="https://coinmarketcap.com/pt-br/" target="_blank">
-              <p id="euro">euro error</p>
-            </a>
-          </div>
-
-          <div class="btc-container">
-            <a href="https://coinmarketcap.com/pt-br/" target="_blank">
-              <p id="btc">btc error</p>
-            </a>
-          </div>
-        </div>
-
-        <div class="contato1">
-          <div class="title-div">
-            <h4>Contato:</h4>
-          </div>
-          <div class="social-card-container">
-            <div class="social-card">
-              <a href="https://github.com/stmacoli" target="_blank">
-                <img src="../assets/github.png" alt="LinkedIn" />
-                GitHub</a
-              >
-            </div>
-            <div class="social-card">
-              <a
-                href="https://www.linkedin.com/in/steven-machado-oliveira/"
-                target="_blank"
-              >
-                <img src="../assets/linkedin.png" alt="GitHub" />LinkedIn</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div id="portfolio-explanation">
         <div>
           <h1>Steven Barreda</h1>
@@ -77,127 +22,76 @@
         <div class="apresentation">
           <h3>Razões de ser do Potfólio</h3>
           <p>
-            Olá! Sou Steven, desenvolvedor apaixonado por criar soluções inovadoras e funcionais.
-            Com sólida experiência em desenvolvimento web e conhecimento em tecnologias modernas
-            como HTML, CSS, JavaScript e frameworks como React e Vue.js, transformo ideias em aplicações
-            dinâmicas e responsivas. Meu portfólio destaca uma variedade de projetos, desde sites
-            interativos até sistemas complexos, refletindo meu compromisso com a excelência e o design 
+            Olá! Sou Steven, desenvolvedor apaixonado por criar soluções
+            inovadoras e funcionais. Com sólida experiência em desenvolvimento
+            web e conhecimento em tecnologias modernas como HTML, CSS,
+            JavaScript e frameworks como React e Vue.js, transformo ideias em
+            aplicações dinâmicas e responsivas. Meu portfólio destaca uma
+            variedade de projetos, desde sites interativos até sistemas
+            complexos, refletindo meu compromisso com a excelência e o design
             centrado no usuário.
           </p>
-          <p>             
-            Explore meus projetos e sinta-se à vontade para entrar em contato para discutir
-            como posso contribuir para o seu próximo projeto. Vamos construir algo incrível juntos!
+          <p>
+            Explore meus projetos e sinta-se à vontade para entrar em contato
+            para discutir como posso contribuir para o seu próximo projeto.
+            Vamos construir algo incrível juntos!
           </p>
+
+          <div class="title-div">
+            <h4>Contato:</h4>
+          </div>
+
+          <div class="social-card">
+            <a href="https://github.com/stmacoli" target="_blank">
+              <img src="../assets/github.png" alt="LinkedIn" />
+              GitHub</a
+            >
+          </div>
+
+          <div class="social-card">
+            <a
+              href="https://www.linkedin.com/in/steven-machado-oliveira/"
+              target="_blank"
+            >
+              <img src="../assets/linkedin.png" alt="GitHub" />LinkedIn</a
+            >
+          </div>
         </div>
       </div>
-
     </section>
     <section>
-       <!-- Menu usando ul e li -->
-    <ul class="menu">
-      <li><a href="#projects-ancora" onclick="toggleSection('Projetos')">Projetos</a></li>
-      <li><a href="#about-ancora" onclick="toggleSection('About')">Sobre Steven</a></li>
-      <li><a href="javascript:void(0)" onclick="toggleSection('Services')">Services</a></li>
-      <li><a href="#cv-ancora" onclick="toggleSection('Contact')">Curriculum Vitae</a></li>
-  </ul>
-  
-</section>
-
-<!-- Container onde as novas sections serão inseridas -->
-<div id="section-container"></div>
-
-  
-
-                            
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-     
+      <!-- Menu usando ul e li -->
+      <ul class="menu">
+        <li>
+          <a href="#projects-ancora" onclick="toggleSection('Projetos')"
+            >Projetos</a
+          >
+        </li>
+        <li>
+          <a href="#about-ancora" onclick="toggleSection('About')"
+            >Sobre Steven</a
+          >
+        </li>
+        <li>
+          <a href="javascript:void(0)" onclick="toggleSection('Services')"
+            >Services</a
+          >
+        </li>
+        <li>
+          <a href="#cv-ancora" onclick="toggleSection('Contact')"
+            >Curriculum Vitae</a
+          >
+        </li>
+      </ul>
     </section>
 
-    <section class="overlay" id="calculator">
-      <div class="close-tab">
-        <button>
-          <img src="../assets/close.png" alt="" onclick="closeTabs()" />
-        </button>
-      </div>
-      <div id="show-calculator">
-        <div class="project-info">
-          <div class="calculator-img-container">
-            <img src="../assets/nwp.png" alt="" />
-          </div>
-
-          <div class="overlay-title">
-            <h1>NW Payment</h1>
-            <h4>viva o agora</h4>
-            <div class="tech-img">
-              <img src="../assets/html.png" alt="HTML" title="HTML5" />
-              <img src="../assets/css.png" alt="CSS" title="CSS3" />
-              <img
-                src="../assets/js.png"
-                alt="JAVASCRIPT"
-                title="JavaScrip(EC5)"
-              />
-              <img src="../assets/canva.png" alt="CANVA" title="Canva" />
-            </div>
-
-            <div class="project-contact">
-              <div class="social-card">
-                <a href="https://github.com/stmacoli" target="_blank">
-                  <img src="../assets/github.png" alt="LinkedIn" />
-                  GitHub</a
-                >
-              </div>
-              <div class="social-card">
-                <a
-                  href="https://www.linkedin.com/in/steven-machado-oliveira/"
-                  target="_blank"
-                >
-                  <img src="../assets/linkedin.png" alt="GitHub" />LinkedIn</a
-                >
-              </div>
-            </div>
-
-            <div class="apresentation">
-              <h3>oi, eu sou o Goku</h3>
-              <p>
-                Suspendisse vel hendrerit mi. Integer convallis neque massa, eu
-                molestie nisl tincidunt eget. Pellentesque consectetur ante
-                orci, vitae interdum orci accumsan sed. Suspendisse ultrices
-                dolor nulla, vel pulvinar dolor laoreet act. Pellentesque
-                consectetur ante orci, vitae interdum orci accumsan sed Suspen.
-                Pellentesque consectetur ante orci, vitae interdum orci accumsan
-                sed. Suspendisse ultrices llentesque consectetur ante orci,
-                vitae interdum orci accumsan sed. Suspendisse ultrices dolor
-                nulla, vel pulvinar dolor laoreet act. Pellentesque consectetur
-                ante orci, vitae interdum orci accumsan sed Suspen. Pellentesque
-                consectetur ante orci, vitae interssa, eu molestie nisl
-                tincidunt eget. Pellentesque consectetur ante orci, vitae
-                interdum orci accumsan sed. Suspendisse ultrices dolor nulla,
-                vel pulvinar dolor laoreet act. Pellssa, eu molestie nisl
-                tincidunt eget. Pellentesque consectetur ante orci, vitae
-                interdum orci accumsan sed. Suspendisse ultrices dolor nulla,
-                vel pulvinar dolor laoreet act. Pell
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!-- Container onde as novas sections serão inseridas -->
+    <div id="section-container"></div>
 
     <footer id="rodape">
-      <p>&copy; Steven Barreda</p>
+      <div class="footer-position">
+        <p>&copy; Steven Barreda</p>
+      </div>
     </footer>
 
     <script src="../js/fetch.js"></script>

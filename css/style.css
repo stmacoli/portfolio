@@ -20,7 +20,7 @@
   --navbar-font-color: #549c93;
 }
 
-
+/* Tags */
 
 * {
   margin: 0;
@@ -71,27 +71,19 @@ footer {
   font-style: italic;
 }
 
+
+/* ID´s */
+
 #first-container {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-#today {
-  font-size: 15px;
-
-}
-#today p {
-  margin-top: 3px;
-}
-
-#img-today {
-  width: 150px;
-}
-
 #portfolio-explanation img {
   width: 35px;
 }
+
 #portfolio-explanation h1 {
   margin-bottom: 0;
 }
@@ -105,71 +97,7 @@ footer {
   padding: 20px;
 }
 
-#second-container {
-  margin-top: -10px;
-  padding: 5px;
-
-}
-
-ul.navbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  border-radius: 10px;
-  display: flex; 
-  justify-content: center;
-  
-}
-
-ul.navbar.hoverizado {
-  background-color: #ff0000;
-  
-
-}
-
-ul.navbar li {
-  float: left;
-}
-
-ul.navbar li a {
-  display: block;
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  text-align: center;  
-  letter-spacing: 1px;
-  margin: 8px;
-}
-
-
-
-
-#third-container {
-  background: rgb(255, 255, 255);
-  border-radius: 10px;
-  padding: 15px;
-  width: 50%;
-  min-width: 600px;
-  margin: 5px auto;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
-  text-align: center;
-}
-
-.contato1 {
-  display: inline-block;
-  background-color: #e2d6ff;
-  padding: 1px;
-  width: 91.5%;
-  margin-top: -7px;
-  
-}
-
-
-
-.social-card-container {
+.social-card-container { /* Classe congeferida ao HTML atravez do Javascript */
   display: flex;
   text-align: center;
   margin-top: 1px;
@@ -196,66 +124,7 @@ ul.navbar li a {
   font-size: small;
 }
 
-
-
- .princing-container {
-  margin-top: 1px;
-  display: flex;
-  width: 92%;
-} 
-
-.princing-container a {
-  text-decoration: none;
-  color: #000000;
-  font-size: 11px;
-}
-
-.dolar-container {
-  height: 13px;
-  background-color: rgba(0, 255, 255, 0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.euro-container {
-  height: 13px;
-  background-color: rgba(31, 87, 255, 0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.btc-container {
-  height: 13px;
-  background-color: rgba(117, 186, 255, 0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.data-tempo {
-  margin: 0 auto -8px auto;
-  padding: 1px;
-  height: 30px;
-  
-  width: 91.5%;
-  background-color: rgba(31, 87, 255, 0.2);
-}
-
-
-
-
-
-
-ul.navbar li a:hover {
-  background-color: #2499c7;
-}
-
-
-
-.wrapper-content {
+.wrapper-content {  /* Classe congeferida ao HTML atravez do Javascript */
 
     font-size: 18px;
     display: grid;
@@ -268,14 +137,7 @@ ul.navbar li a:hover {
     
   }
 
-
-
-
-
-
-
-
-.first-project {
+.first-project {  /* Classe congeferida ao HTML atravez do Javascript */
   background-color: #e7e3e3;
   width: 95%;
   display: inline-block;
@@ -285,7 +147,11 @@ ul.navbar li a:hover {
 
 }
 
-.second-project {
+.first-project:hover {  /* Classe congeferida ao HTML atravez do Javascript */
+  background-color: #15272d58;
+}
+
+.second-project {  /* Classe congeferida ao HTML atravez do Javascript */
   background-color: #e7e3e3;
   width: 95%;
   display: inline-block;
@@ -295,7 +161,11 @@ ul.navbar li a:hover {
 
 }
 
-.third-project {
+.second-project:hover {  /* Classe congeferida ao HTML atravez do Javascript */
+  background-color: #15272d58;
+}
+
+.third-project {  /* Classe congeferida ao HTML atravez do Javascript */
   background-color: #e7e3e3;
   width: 95%;
   display: inline-block;
@@ -306,7 +176,11 @@ ul.navbar li a:hover {
 
 }
 
-.fourth-project {
+.third-project:hover {  /* Classe congeferida ao HTML atravez do Javascript */
+  background-color: #15272d58;
+}
+
+.fourth-project {  /* Classe congeferida ao HTML atravez do Javascript */
   background-color: #e7e3e3;
   width: 95%;
   display: inline-block;
@@ -316,157 +190,57 @@ ul.navbar li a:hover {
   border: 1px rgba(0, 0, 0, 0.1) solid;
 }
 
-
-.img-container1 {
+.img-container1 {  /* Classe congeferida ao HTML atravez do Javascript */
   width: 100%;
   padding: 0;
 }
 
-.img-project1 {
+.img-project1 {  /* Classe congeferida ao HTML atravez do Javascript */
   width: 100%;
   height: auto;
 }
 
-.first-project:hover {
-  background-color: #15272d58;
-}
-
-
-
-
-.img-container2 {
+.img-container2 {  /* Classe congeferida ao HTML atravez do Javascript */
   width: 100%;
   padding: 0;
 }
 
-.img-project2 {
+.img-project2 {  /* Classe congeferida ao HTML atravez do Javascript */
   width: 100%;
   height: auto;
 }
-.second-project:hover {
-  background-color: #15272d58;
-}
 
-
-
-
-.img-container3 {
+.img-container3 {  /* Classe congeferida ao HTML atravez do Javascript */
   width: 100%;
   padding: 0;
 }
 
-.img-project3 {
+.img-project3 {  /* Classe congeferida ao HTML atravez do Javascript */
   width: 100%;
   height: auto;
 }
 
-.third-project:hover {
-  background-color: #15272d58;
-}
-
-
-
-
-.img-container4 {
+.img-container4 {  /* Classe congeferida ao HTML atravez do Javascript */
   width: 100%;
   padding: 0;
 }
 
-.img-project4 {
+.img-project4 {  /* Classe congeferida ao HTML atravez do Javascript */
   width: 100%;
   height: auto;
 }
 
-.fourth-project:hover {
+.fourth-project:hover {  /* Classe congeferida ao HTML atravez do Javascript */
   background-color: #15272d58;
 }
 
-
-.project-title {
+.project-title {  /* Classe congeferida ao HTML atravez do Javascript */
   background-color: #235153;
 
 } 
 
-
-#calculator {
-  display: none;
-  overflow: auto;
   
-
-}
-
-
-.overlay {
-  
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  height: 90%;
-  background-color: rgba(196, 196, 196, 0.942); 
-  z-index: 9999; 
-  display: block;
-}
-
-.calculator-img-container {
-  background-color: #aaaaaa7e;
-  margin-top: 20px;
-  margin-left: 20px;
-  min-width: 500px;
-  max-width: 500px;
-  border-radius: 10px;
-}
-
-
-.calculator-img-container img {
-  width: 100%;
-}
-
-
-
-
-.project-info {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.overlay-title {
-  width: 55%;
-  max-height: 750px;
-  background-color: #efefef;
-  margin: 0 auto;
-  border-radius: 10px;
-  
-}
-
-.overlay-title h1 {
-  font-size: 75px;
-}
-
-
-.tech-img img {
-  width: 70px;
-}
-
-.project-contact {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-}
-
-
-
-.close-tab {
-  margin-left: 73vw;
-  padding: 0;
-}
-
-
-
-  /* Estilos para o menu */
-  ul.menu {
+  ul.menu {  /* Estilos para o menu */
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -490,8 +264,8 @@ ul.menu li a:hover {
     background-color: #111;
 }
 
-/* Estilos para as sections criadas */
-.new-section {
+
+.new-section {  /* Estilos para as sections criadas */
   display: flex; /* Ativa o Flexbox no container */
   justify-content: space-evenly; /* Distribui espaço uniformemente entre as listas incluindo bordas */
   background: rgb(255, 255, 255);
@@ -503,44 +277,29 @@ ul.menu li a:hover {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
 }
 
-
-
-
-#section-Services {
+#section-Services {  /* Classe congeferida ao HTML atravez do Javascript */
   background-color: #2499c7;
 }
 
-
-
-
-#perfil {
+#perfil {  /* Classe congeferida ao HTML atravez do Javascript */
   font-size: 15px;
-
 }
-#perfil p {
+
+#perfil p {  /* Classe congeferida ao HTML atravez do Javascript */
   margin-top: 3px;
 }
 
-#img-perfil {
+#img-perfil {  /* Classe congeferida ao HTML atravez do Javascript */
   width: 400px;
 }
 
-.img-perfil-container {
-  
+.img-perfil-container {  /* Classe congeferida ao HTML atravez do Javascript */
   background-color: #e2d6ff;
   padding: 1px;
   width: 91.5%;
-  
 }
 
-
-
-
-
-
-
-
-.apresentation-cv1 {
+.apresentation-cv1 {  /* Classe congeferida ao HTML atravez do Javascript */
   justify-content: space-evenly; /* Distribui espaço uniformemente entre as listas incluindo bordas */
   margin: 15px 10px 15px 10px;
   width: 20vw;
@@ -550,63 +309,36 @@ ul.menu li a:hover {
   padding: 20px;
 }
 
-.apresentation-tec1 {
+.apresentation-tec1 {  /* Classe congeferida ao HTML atravez do Javascript */
   display: flex;
-  
 }
 
-.apresentation-cv1 h4 {
+.apresentation-cv1 h4 {  /* Classe congeferida ao HTML atravez do Javascript */
   margin-right: 100%;
   white-space: nowrap; /*impede a quebra de linha*/
 }
   
-.title-div2 {
+.title-div2 {  /* Classe congeferida ao HTML atravez do Javascript */
   margin-right: 100%;
   white-space: nowrap; /*impede a quebra de linha*/
 }
 
-.title-div2 p {
+.title-div2 p {  /* Classe congeferida ao HTML atravez do Javascript */
   font-size: medium;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.ficha-cadastral {
+.ficha-cadastral {  /* Classe congeferida ao HTML atravez do Javascript */
   border: 1px solid #ddd;
   padding: 20px;
   border-radius: 5px;
-  max-width: 600px;
-  
-  
-  
+  max-width: 600px;  
 }
-.campo {
-  margin-bottom: 10px;
-  
- 
-  
-  
+
+.campo {  /* Classe congeferida ao HTML atravez do Javascript */
+  margin-bottom: 10px; 
 }
-.campo label {
+
+.campo label {  /* Classe congeferida ao HTML atravez do Javascript */
   font-weight: bold;
   display: block;
   margin-bottom: 5px;
@@ -615,31 +347,30 @@ ul.menu li a:hover {
   
 }
 
-.campo p {
+.campo p {  /* Classe congeferida ao HTML atravez do Javascript */
   margin-right: 100%;
   white-space: nowrap;  
 }
 
-
-
-
-
-
-
-
-.display-tecnologias {
+.display-tecnologias {  /* Classe congeferida ao HTML atravez do Javascript */
   display: flex;
   flex-direction: column; /* Alinha os itens em coluna */
+  
 }
 
-.social-card1 {
+.social-card1 {  /* Classe congeferida ao HTML atravez do Javascript */
   display: flex;
   align-items: center; /* Alinha o conteúdo dentro da div verticalmente */
   margin-bottom: 10px; /* Espaço entre os itens */  
 }
 
-.social-card1 img {
+.social-card1 img {  /* Classe congeferida ao HTML atravez do Javascript */
   width: 30px;
   margin-right: 10px; /* Espaço entre a imagem e o texto */
 }
 
+.footer-position {  /* Classe congeferida ao HTML atravez do Javascript */
+  display: flex;
+  justify-content: center; /* Centraliza a div horizontalmente */
+  align-items: center; /* Centraliza a div verticalmente */
+}

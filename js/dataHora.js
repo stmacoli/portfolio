@@ -3,8 +3,7 @@ function dataHora() {
     let bShadow2 = window.document.querySelector("#second-container");
     let hoursDay = window.document.querySelector("#first-container p");
   
-    let img = window.document.querySelector("#img-today");
-  
+    
     let rodapeNome = window.document.querySelector("#rodape");
   
     let navBar = window.document.querySelector("#second-container ul.navbar");
