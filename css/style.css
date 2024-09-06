@@ -44,8 +44,8 @@ section {
   background: rgb(255, 255, 255);
   border-radius: 10px;
   padding: 5px;
-  width: 50%;
-  min-width: 600px;
+  width: 65%;
+  min-width: 660px;
   margin: 15px auto;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
 }
@@ -80,21 +80,23 @@ footer {
   align-items: center;
 }
 
-#portfolio-explanation img {
+#first-container img {
   width: 35px;
 }
 
-#portfolio-explanation h1 {
+#first-container h1 {
   margin-bottom: 0;
 }
 
 .apresentation {
   margin: 0 auto;
   width: 90%;
+  min-width: 100px;
   background-color: rgb(231, 227, 227);
   font-size: 18px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
   padding: 20px;
+  justify-content: center;
 }
 
 .social-card-container { /* Classe congeferida ao HTML atravez do Javascript */
@@ -265,17 +267,9 @@ ul.menu li a:hover {
 }
 
 
-.new-section {  /* Estilos para as sections criadas */
-  display: flex; /* Ativa o Flexbox no container */
-  justify-content: space-evenly; /* Distribui espaço uniformemente entre as listas incluindo bordas */
-  background: rgb(255, 255, 255);
-  border-radius: 10px;
-  padding: 5px;
-  width: 50%;
-  min-width: 600px;
-  margin: 15px auto;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
-}
+/*.new-section {   Estilos para as sections criadas 
+}*/
+
 
 #section-Services {  /* Classe congeferida ao HTML atravez do Javascript */
   background-color: #2499c7;
@@ -303,6 +297,7 @@ ul.menu li a:hover {
   justify-content: space-evenly; /* Distribui espaço uniformemente entre as listas incluindo bordas */
   margin: 15px 10px 15px 10px;
   width: 20vw;
+  min-width: 250px;
   background-color: rgb(231, 227, 227);
   font-size: 18px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);

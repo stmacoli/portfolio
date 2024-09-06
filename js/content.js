@@ -115,43 +115,41 @@ function toggleSection(title) {
     let content_cv = `
     
     <div id="cv-ancora">
-        <div class="title-div2">
-          <h3>CV Barreda:</h3>
-          <p><a href="/assets/cv.pdf" download="Steven Barreda CV - Dev.pdf">Clique aqui para baixar o meu Curriculum</a></p>
-        </div>
-
-
+      <div class="title-div2">
+        <h3>CV Barreda:</h3>
+        <p><a href="/assets/cv.pdf" download="Steven Barreda CV - Dev.pdf">Clique aqui para baixar o meu Curriculum</a></p>
+      </div>
         
-        <div class="apresentation-cv1">
+      <div class="apresentation-cv1">
         <h4>Dados Pessoais:</h4>
-          <div class="ficha-cadastral">
+        <div class="ficha-cadastral">
  
   
-  <div class="campo">
-      <p> <label>Nome:</label> Steven Barreda</p>
-  </div>
-  
-  <div class="campo">
-      <label>Email:</label>
-      <p>seu.email@gmail.com</p>
-  </div>
-  
-  <div class="campo">
-      <label>Telefone:</label>
-      <p>(11) 9 xxxx-xxxx</p>
-  </div>
-  
-  <div class="campo">
-      <label>Idade:</label>
-      <p>30 anos</p>
-  </div>
-  
-  <div class="campo">
-      <label>Observações:</label>
-      <p>Alguma observação adicional.</p>
-  </div>
-</div>
+        <div class="campo">
+          <p> <label>Nome:</label> Steven Barreda</p>
         </div>
+  
+        <div class="campo">
+            <label>Email:</label>
+            <p>seu.email@gmail.com</p>
+        </div>
+  
+        <div class="campo">
+            <label>Telefone:</label>
+            <p>(11) 9 xxxx-xxxx</p>
+        </div>
+  
+        <div class="campo">
+            <label>Idade:</label>
+            <p>30 anos</p>
+        </div>
+  
+        <div class="campo">
+            <label>Observações:</label>
+            <p>Alguma observação adicional.</p>
+        </div>
+      </div>
+    </div>
         
 
 
