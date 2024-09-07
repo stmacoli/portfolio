@@ -45,15 +45,14 @@ section {
   border-radius: 10px;
   padding: 5px;
   width: 65%;
-  min-width: 660px;
+  min-width: 700px;
   margin: 15px auto;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
 }
 
-
 div {
   text-align: center;
-  padding: 8px;
+  padding: 5px;
 }
 
 a {
@@ -65,28 +64,23 @@ a:visited {
 }
 
 footer {
-  margin: 0 auto;
   color: white;
   text-align: center;
   font-style: italic;
+  justify-content: center;
 }
+
 
 
 /* ID´s */
 
-#first-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
+
 
 #first-container img {
   width: 35px;
 }
 
-#first-container h1 {
-  margin-bottom: 0;
-}
+
 
 .apresentation {
   margin: 0 auto;
@@ -284,7 +278,7 @@ ul.menu li a:hover {
 }
 
 #img-perfil {  /* Classe congeferida ao HTML atravez do Javascript */
-  width: 400px;
+  width: 250px;
 }
 
 .img-perfil-container {  /* Classe congeferida ao HTML atravez do Javascript */
@@ -296,7 +290,7 @@ ul.menu li a:hover {
 .apresentation-cv1 {  /* Classe congeferida ao HTML atravez do Javascript */
   justify-content: space-evenly; /* Distribui espaço uniformemente entre as listas incluindo bordas */
   margin: 15px 10px 15px 10px;
-  width: 20vw;
+  width: 30vw;
   min-width: 250px;
   background-color: rgb(231, 227, 227);
   font-size: 18px;
@@ -304,38 +298,68 @@ ul.menu li a:hover {
   padding: 20px;
 }
 
+.apresentation-cv2 {  /* Classe congeferida ao HTML atravez do Javascript */
+  justify-content: space-evenly; /* Distribui espaço uniformemente entre as listas incluindo bordas */
+  margin: 15px 10px 15px 10px;
+  width: 30vw;
+  max-height: 73vh;
+  min-width: 250px;
+  background-color: rgb(231, 227, 227);
+  font-size: 18px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.391);
+  padding: 20px;
+  overflow: auto; /* Mostra a barra de rolagem apenas quando necessário */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer */
+
+}
+
 .apresentation-tec1 {  /* Classe congeferida ao HTML atravez do Javascript */
   display: flex;
+  border: 1px solid #d4d3d3;
+  border-radius: 5px;
+}
+
+.info-jobs {
+  border: 1px solid #d4d3d3;
+  border-radius: 5px;
 }
 
 .apresentation-cv1 h4 {  /* Classe congeferida ao HTML atravez do Javascript */
   margin-right: 100%;
   white-space: nowrap; /*impede a quebra de linha*/
 }
+
+.apresentation-cv2 h4 {  /* Classe congeferida ao HTML atravez do Javascript */
+  margin-right: 100%;
+  white-space: nowrap; /*impede a quebra de linha*/
+}
   
-.title-div2 {  /* Classe congeferida ao HTML atravez do Javascript */
+.title-content-cv {  /* Classe congeferida ao HTML atravez do Javascript */
   margin-right: 100%;
   white-space: nowrap; /*impede a quebra de linha*/
 }
 
-.title-div2 p {  /* Classe congeferida ao HTML atravez do Javascript */
+.title-content-cv p {  /* Classe congeferida ao HTML atravez do Javascript */
   font-size: medium;
 }
 
 .ficha-cadastral {  /* Classe congeferida ao HTML atravez do Javascript */
-  border: 1px solid #ddd;
-  padding: 20px;
+  border: 1px solid #d4d3d3;
   border-radius: 5px;
   max-width: 600px;  
 }
 
 .campo {  /* Classe congeferida ao HTML atravez do Javascript */
-  margin-bottom: 10px; 
+  display: flex;
+  margin-bottom: 1px; 
+  width: 5vw;
 }
 
 .campo label {  /* Classe congeferida ao HTML atravez do Javascript */
   font-weight: bold;
   display: block;
+  width: 3vw;
   margin-bottom: 5px;
   margin-right: 100%;
   white-space: nowrap;
@@ -344,7 +368,8 @@ ul.menu li a:hover {
 
 .campo p {  /* Classe congeferida ao HTML atravez do Javascript */
   margin-right: 100%;
-  white-space: nowrap;  
+  white-space: nowrap;
+  
 }
 
 .display-tecnologias {  /* Classe congeferida ao HTML atravez do Javascript */
@@ -360,12 +385,64 @@ ul.menu li a:hover {
 }
 
 .social-card1 img {  /* Classe congeferida ao HTML atravez do Javascript */
-  width: 30px;
+  width: 50px;
   margin-right: 10px; /* Espaço entre a imagem e o texto */
+  display: inline;
+  vertical-align: middle;
 }
 
-.footer-position {  /* Classe congeferida ao HTML atravez do Javascript */
-  display: flex;
-  justify-content: center; /* Centraliza a div horizontalmente */
-  align-items: center; /* Centraliza a div verticalmente */
+#rodape {
+  justify-content: center; /* Distribui espaço uniformemente entre as listas incluindo bordas */
+  background: rgba(0, 0, 0, 0);
+  padding: 5px;
+  width: 65%;
+  min-width: 700px;
+  margin: 15px auto;
+}
+
+
+
+
+.scrollable-div {
+ 
+  height: 70vh;
+  
+}
+
+/* Media query para tablets */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Media query para smartphones */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .cv-ancora {
+    width: 100%;
+    padding: 0;
+  }
+ 
+
+
+
+  .menu {
+    display: block;
+  }
 }

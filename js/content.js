@@ -115,7 +115,7 @@ function toggleSection(title) {
     let content_cv = `
     
     <div id="cv-ancora">
-      <div class="title-div2">
+      <div class="title-content-cv">
         <h3>CV Barreda:</h3>
         <p><a href="/assets/cv.pdf" download="Steven Barreda CV - Dev.pdf">Clique aqui para baixar o meu Curriculum</a></p>
       </div>
@@ -126,7 +126,8 @@ function toggleSection(title) {
  
   
         <div class="campo">
-          <p> <label>Nome:</label> Steven Barreda</p>
+          <label>Nome:</label>
+          <p>Steven Barreda</p>
         </div>
   
         <div class="campo">
@@ -145,8 +146,8 @@ function toggleSection(title) {
         </div>
   
         <div class="campo">
-            <label>Observações:</label>
-            <p>Alguma observação adicional.</p>
+            <label>asdasd</label>
+            <p>Asd</p>
         </div>
       </div>
     </div>
@@ -195,20 +196,198 @@ function toggleSection(title) {
 
         
 
-      <div class="apresentation-cv1">
-          <h4>Dados Profissionais:</h4>          
-          <p>
-            Suspendisse vel hendrerit mi. Integer convallis neque massa, eu
-            molestie nisl tincidunt eget. Pellentesque consectetur ante orci,
-            vitae interdum orci accumsan sed. Suspendisse ultrices dolor nulla,
-            vel pulvinar dolor laoreet act. Vitae interduum orci accumsan sed Suspen.Pellentesque consectetur ante orci,
-            vitae interdum orci accumsan sed Suspen. orci accumsan sed. Suspendisse ultrices
-            dolor nulla, vel pulvinar dolor laoreet act.Pellentesque consectetur ante orci,
-            vitae interdum orci accumsan sed Susisse ultrices
-            dolor nulla, vel pulvinar dolor laoreet act.vPellentesque consectetur ante orci,
-            vitae interdum orci accumsan sed SusSuspendisse ultrices
-            dolor nulla, vel pulvinar dolor laoreet act.
-          </p>
+        <div class="apresentation-cv2"> <!--, scrollable-div   --!>
+          <h4>Dados Profissionais:</h4>
+          <div class="ficha-cadastral">
+
+            <h5>Aramazém Erva Nova</h5>
+ 
+  
+            <div class="campo">
+              <label>Função:</label>
+              <p>Aux. Administrativo</p>
+            </div>
+  
+            <div class="campo">
+              <label>Tarefas:</label>
+              <p>seu.email@gmail.com</p>
+            </div>
+  
+            <div class="campo">
+              <label>Telefone:</label>
+              <p>(11) 9 xxxx-xxxx</p>
+            </div>
+  
+            <div class="campo">
+              <label>Idade:</label>
+              <p>30 anos</p>
+            </div>
+  
+            <div class="campo">
+              <label>asdasd</label>
+              <p>Asd</p>
+            </div>
+            
+        </div>
+          
+      <div class="ficha-cadastral">
+
+            <h5>Aramazém Erva Nova</h5>
+ 
+  
+            <div class="campo">
+              <label>Função:</label>
+              <p>Aux. Administrativo</p>
+            </div>
+  
+            <div class="campo">
+              <label>Tarefas:</label>
+              <p>seu.email@gmail.com</p>
+            </div>
+  
+            <div class="campo">
+              <label>Telefone:</label>
+              <p>(11) 9 xxxx-xxxx</p>
+            </div>
+  
+            <div class="campo">
+              <label>Idade:</label>
+              <p>30 anos</p>
+            </div>
+  
+            <div class="campo">
+              <label>asdasd</label>
+              <p>AAAsdasd</p>
+            </div>
+      </div>
+      
+      <div class="ficha-cadastral">
+
+            <h5>Piloto de Fuga.</h5>
+ 
+  
+            <div class="campo">
+              <label>Função:</label>
+              <p>Aux. Administrativo</p>
+            </div>
+  
+            <div class="campo">
+              <label>Tarefas:</label>
+              <p>seu.email@gmail.com</p>
+            </div>
+  
+            <div class="campo">
+              <label>Telefone:</label>
+              <p>(11) 9 xxxx-xxxx</p>
+            </div>
+  
+            <div class="campo">
+              <label>Idade:</label>
+              <p>30 anos</p>
+            </div>
+  
+            <div class="campo">
+              <label>asdasd</label>
+              <p>AAAsdasd</p>
+            </div>
+      </div>
+      
+      <div class="ficha-cadastral">
+
+            <h5>Zagueiro do Flamengo</h5>
+ 
+  
+            <div class="campo">
+              <label>Função:</label>
+              <p>Aux. Administrativo</p>
+            </div>
+  
+            <div class="campo">
+              <label>Tarefas:</label>
+              <p>seu.email@gmail.com</p>
+            </div>
+  
+            <div class="campo">
+              <label>Telefone:</label>
+              <p>(11) 9 xxxx-xxxx</p>
+            </div>
+  
+            <div class="campo">
+              <label>Idade:</label>
+              <p>30 anos</p>
+            </div>
+  
+            <div class="campo">
+              <label>asdasd</label>
+              <p>AAAsdasd</p>
+            </div>
+      </div>
+      
+      <div class="ficha-cadastral">
+
+            <h5>Aramazém Erva Nova</h5>
+ 
+  
+            <div class="campo">
+              <label>Função:</label>
+              <p>Aux. Administrativo</p>
+            </div>
+  
+            <div class="campo">
+              <label>Tarefas:</label>
+              <p>seu.email@gmail.com</p>
+            </div>
+  
+            <div class="campo">
+              <label>Telefone:</label>
+              <p>(11) 9 xxxx-xxxx</p>
+            </div>
+  
+            <div class="campo">
+              <label>Idade:</label>
+              <p>30 anos</p>
+            </div>
+  
+            <div class="campo">
+              <label>asdasd</label>
+              <p>AAd</p>
+            </div>
+      </div>
+      
+      <div class="ficha-cadastral">
+
+            <h5>Aramazém Erva Nova</h5>
+ 
+  
+            <div class="campo">
+              <label>Função:</label>
+              <p>Aux. Administrativo</p>
+            </div>
+  
+            <div class="campo">
+              <label>Tarefas:</label>
+              <p>seu.email@gmail.com</p>
+            </div>
+  
+            <div class="campo">
+              <label>Telefone:</label>
+              <p>(11) 9 xxxx-xxxx</p>
+            </div>
+  
+            <div class="campo">
+              <label>Idade:</label>
+              <p>30 anos</p>
+            </div>
+  
+            <div class="campo">
+              <label>asdasd</label>
+              <p>AAd</p>
+            </div>
+      </div>
+
+
+
+    </div>
 
       </div>
 
@@ -217,7 +396,7 @@ function toggleSection(title) {
     `
 
 
-
+//Verificar se manter classe info-jobs ou atribuir uma classe já existente
 
 
 
